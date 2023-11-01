@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <header className="header-top-strip py-3">
         <div className="container-xxl">
-          <div className="row">
+          <div className="row ">
             <div className="col-6">
               <p className="text-white mb-0">
                 Free Shipping over $100 & Free returns
@@ -24,12 +24,12 @@ export default function Header() {
       </header>
       <header className="header-upper py-3">
         <div className="container-xxl">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-2">
               <h2><Link>DevShop </Link></h2>
             </div>
             <div className="col-5">
-              <div className="input-group mb-3">
+              <div className="input-group">
                   <input 
                     type="text" 
                     className="form-control py-2" 
@@ -43,7 +43,17 @@ export default function Header() {
               </div>
             </div>
             <div className="col-5">
-
+              <div className="header-upper-links d-flex align-items-center justify-content-between">
+                <div>
+                  <Link>
+                    <img src="/images/compare.svg"/>
+                    <p></p>
+                  </Link>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
           </div>
         </div>
