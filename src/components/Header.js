@@ -93,9 +93,6 @@ export default function Header() {
               <div className="menu-bottom d-flex align-items-center gap-30">
                 <div>
                   <div className="dropdown">
-                    <Link>
-                      
-                    </Link>
                     <button 
                       className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center" 
                       type="button" 
@@ -103,15 +100,13 @@ export default function Header() {
                       aria-expanded="false"
 
                     >
-
-
                     <span><i className="material-icons" style={{fontSize:"20px", color:"#ffffff"}}>dialpad</i></span>
                       <span className="me-5 d-inline-block">Shop Categories</span>
                     </button>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    <ul className="dropdown-menu text-white">
+                      <Link className="dropdown-item text-white" to="">Action</Link>
+                      <Link className="dropdown-item text-white" to="">Another Action</Link>
+                      <Link className="dropdown-item text-white" to="">Something Else Here</Link>
                     </ul>
                   </div>
                 </div>
