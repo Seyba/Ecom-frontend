@@ -27,14 +27,83 @@ export default function Footer() {
                   aria-describedby="basic-addon2"
                 />
                 <span className="input-group-text p-2" id="basic-addon2">
-                  subscribe
+                  SUBSCRIBE
                 </span>
               </div>
             </div>
           </div>
         </div>
       </footer>
-      <footer className="py-3"></footer>
+      <footer className="py-4">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-4">
+              <h4 className="text-white mb-4">Contact Us</h4>
+              <div></div>
+            </div>
+            <div className="col-3">
+              <h4 className="text-white mb-4">Information</h4>
+              <div className="footer-links">
+                <ul>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Privacy Policy</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Refund Policy</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Shipping Policy</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Terms Of Service</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Blogs</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-3">
+              <h4 className="text-white mb-4">Account</h4>
+              <div className="footer-links">
+                <ul>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Search</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">About Us</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Faq</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Size Chart</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-2">
+              <h4 className="text-white mb-4">Quick Links</h4>
+              <div className="footer-links">
+                <ul>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Laptops</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Headphones</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Tablets</Link>
+                  </li>
+                  <li>
+                    <Link className="text-white py-2 mb-1">Watch</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
       <footer className="py-3"></footer>
       <footer className="py-3">
         <div className="row">

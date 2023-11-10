@@ -87,6 +87,7 @@ footer:not(:first-child) {
 
 footer .input-group-text {
   background-color: var(--color-232f3e);
+  font-weight: 100;
   color: #ffffff;
   padding: 8px 17px;
 }
