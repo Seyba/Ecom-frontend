@@ -39,26 +39,34 @@ export default function Footer() {
           <div className="row">
             <div className="col-4">
               <h4 className="text-white mb-4">Contact Us</h4>
-              <div></div>
+              <div>
+                <address className="text-white">
+                  Dev Shop <br/>
+                  <p>No. 1259 Freedom, New York, 11111 
+                  United States<br/></p>
+                  <p>+91-987654321</p>
+                  <p>devshop@devshop.com</p>
+                </address>
+              </div>
             </div>
             <div className="col-3">
               <h4 className="text-white mb-4">Information</h4>
               <div className="footer-links">
                 <ul>
                   <li>
-                    <Link className="text-white py-2 mb-1">Privacy Policy</Link>
+                    <Link className="text-white py-1 mb-1">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Refund Policy</Link>
+                    <Link className="text-white py-1 mb-1">Refund Policy</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Shipping Policy</Link>
+                    <Link className="text-white py-1 mb-1">Shipping Policy</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Terms Of Service</Link>
+                    <Link className="text-white py-1 mb-1">Terms Of Service</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Blogs</Link>
+                    <Link className="text-white py-1 mb-1">Blogs</Link>
                   </li>
                 </ul>
               </div>
@@ -68,16 +76,16 @@ export default function Footer() {
               <div className="footer-links">
                 <ul>
                   <li>
-                    <Link className="text-white py-2 mb-1">Search</Link>
+                    <Link className="text-white py-1 mb-1">Search</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">About Us</Link>
+                    <Link className="text-white py-1 mb-1">About Us</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Faq</Link>
+                    <Link className="text-white py-1 mb-1">Faq</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Size Chart</Link>
+                    <Link className="text-white py-1 mb-1">Size Chart</Link>
                   </li>
                 </ul>
               </div>
@@ -87,16 +95,16 @@ export default function Footer() {
               <div className="footer-links">
                 <ul>
                   <li>
-                    <Link className="text-white py-2 mb-1">Laptops</Link>
+                    <Link className="text-white py-1 mb-1">Laptops</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Headphones</Link>
+                    <Link className="text-white py-1 mb-1">Headphones</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Tablets</Link>
+                    <Link className="text-white py-1 mb-1">Tablets</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-2 mb-1">Watch</Link>
+                    <Link className="text-white py-1 mb-1">Watch</Link>
                   </li>
                 </ul>
               </div>

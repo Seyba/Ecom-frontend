@@ -91,5 +91,14 @@ footer .input-group-text {
   color: #ffffff;
   padding: 8px 17px;
 }
-
+footer .footer-links ul {
+  padding-left: 0px;
+  font-size: small;
+}
+footer .footer-links li {
+  list-style: none;
+}
+footer address {
+  font-size: small;
+}
 /**  =========== Footer Section Ends ================= */
