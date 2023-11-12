@@ -113,7 +113,7 @@ export default function Home() {
                   </svg>
                   <div className="subtitle">
                     <h6>Support 24/7</h6>
-                    <p className="mb-0">Shop with an expert$100</p>
+                    <p className="mb-0">Shop with an expert</p>
                   </div>
                 </div>
 
@@ -138,6 +138,17 @@ export default function Home() {
                     <p className="mb-0">100% Protected Payments</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-wrapper-3 py-5">
+        <div className="container-xxl ">
+          <div className="row">
+            <div className="col-12">
+              <div className="categories d-flex justify-content-between align-items-center">
+
               </div>
             </div>
           </div>

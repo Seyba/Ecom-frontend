@@ -208,3 +208,11 @@ footer address {
   margin: 0 0 5px;
 }
 /**  =========== Home Wrapper 2 Section Ends ================= */
+
+/**  =========== Home Wrapper 3 Section Starts ================= */
+.categories {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+/**  =========== Home Wrapper 3 Section Ends ================= */
