@@ -143,12 +143,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="home-wrapper-3 py-5">
+      <section className="home-wrapper-2 py-5">
         <div className="container-xxl ">
           <div className="row">
             <div className="col-12">
-              <div className="categories d-flex justify-content-between align-items-center">
-                <div className="d-flex align-items-center gap-30">
+              <div className="categories d-flex justify-content-between flex-wrap align-items-center">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Laptops and Computers</h6>
                     <p>8 Items</p>
@@ -156,7 +156,7 @@ export default function Home() {
                   <img src="images/macbook.jpg" alt="computer"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Cameras & Videos</h6>
                     <p>10 Items</p>
@@ -164,7 +164,7 @@ export default function Home() {
                   <img src="images/smartSpeaker.jpg" alt="computer"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Smart Television</h6>
                     <p>12 Items</p>
@@ -172,7 +172,7 @@ export default function Home() {
                   <img src="images/tv.jpg" alt="computer"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Smart Watches</h6>
                     <p>13 Items</p>
@@ -180,7 +180,7 @@ export default function Home() {
                   <img src="images/camera.jpg" alt="camera"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Music & Gaming</h6>
                     <p>4 Items</p>
@@ -188,7 +188,7 @@ export default function Home() {
                   <img src="images/xBox.jpg" alt="xBox"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Mobiles & Tablets</h6>
                     <p>5 Items</p>
@@ -196,7 +196,7 @@ export default function Home() {
                   <img src="images/samsungGalaxy.jpg" alt="phones"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Headphones</h6>
                     <p>6 Items</p>
@@ -204,28 +204,14 @@ export default function Home() {
                   <img src="images/iphone11.jpg" alt="iphone"/>
                 </div>
 
-                <div className="d-flex align-items-center gap-30">
+                <div className="d-flex align-items-center">
                   <div>
                     <h6>Accessories</h6>
                     <p>10 Items</p>
                   </div>
                   <img src="images/monitor.jpg" alt="monitor"/>
                 </div>
-                <div className="d-flex align-items-center gap-30">
-                  <div>
-                    <h6>Portable Speakers</h6>
-                    <p>8 Items</p>
-                  </div>
-                  <img src="images/appleWatch.jpg" alt="watch"/>
-                </div>
                 
-                <div className="d-flex align-items-center gap-30">
-                  <div>
-                    <h6>Home Appeliances</h6>
-                    <p>6 Items</p>
-                  </div>
-                  <img src="images/ipad.jpg" alt="ipad"/>
-                </div>
               </div>
             </div>
           </div>
