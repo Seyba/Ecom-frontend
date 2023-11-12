@@ -120,8 +120,8 @@ footer address {
 
 /**  =========== Home Page Section Starts ================= */
 .main-banner-content {
-  top: 37%;
-  left: 9%;
+  top: 15%;
+  left: 5%;
 }
 .main-banner-content h4 {
   font-size: 16px;
@@ -150,6 +150,39 @@ footer address {
   color: var(--color-131921);
 }
 
+.small-banner-content {
+  top: 25%;
+  left: 5%;
+}
+.small-banner-content h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.small-banner-content h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #1c1b1b;
+  margin: 0 0 12px;
+  letter-spacing: -2px;
+  text-transform: none;
+}
+
+.small-banner-content p {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.4;
+  color: var(--color-131921);
+}
+.small-banner {
+  width: 49%;
+}
 
 
 /**  =========== Home Page Section Ends ================= */
