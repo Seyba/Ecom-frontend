@@ -259,6 +259,7 @@ export default function Home() {
       </section>
       <section className="blog-wrapper py-5 home-wrapper-2">
         <div className="container-xxl ">
+          <h3>Our Latest News</h3>
           <div className="row">
             <div className="col-3"></div>
             <div className="col-3"></div>
