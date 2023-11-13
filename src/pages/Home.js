@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Marquee from 'react-fast-marquee'
+import BlogCard from '../components/BlogCard'
 
 export default function Home() {
   return (
@@ -253,6 +254,16 @@ export default function Home() {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl ">
+          <div className="row">
+            <div className="col-3"></div>
+            <div className="col-3"></div>
+            <div className="col-3"></div>
+            <div className="col-3"></div>
           </div>
         </div>
       </section>
