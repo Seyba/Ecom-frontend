@@ -223,7 +223,33 @@ export default function Home() {
             <div className="col-12">
               <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
-                  Hello world
+                  <div className="mx-4 w-25">
+                    <img src="/images/canon.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/dell.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/lg.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/apple.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/sandisk.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/samsung.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/intel.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/bose.jpg" alt="brand"/>
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img src="/images/sony.jpg" alt="brand"/>
+                  </div>
                 </Marquee>
               </div>
             </div>
