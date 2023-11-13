@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {LiaShippingFastSolid} from 'react-icons/lia'
+import Marquee from 'react-fast-marquee'
 
 export default function Home() {
   return (
@@ -212,6 +212,19 @@ export default function Home() {
                   <img src="images/monitor.jpg" alt="monitor"/>
                 </div>
                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="marquee-wrapper py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="marquee-inner-wrapper card-wrapper">
+                <Marquee className="d-flex">
+                  Hello world
+                </Marquee>
               </div>
             </div>
           </div>
