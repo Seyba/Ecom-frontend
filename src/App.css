@@ -252,3 +252,12 @@ footer address {
 
 
 /**============== Categories Section Ends ================= */
+
+
+/**============== Blog Section Ends ================= */
+.blog-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+/**============== Blog Section Ends ================= */
