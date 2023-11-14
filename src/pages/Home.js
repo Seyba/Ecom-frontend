@@ -261,10 +261,11 @@ export default function Home() {
         <div className="container-xxl ">
           <h3>Our Latest News</h3>
           <div className="row">
-            <div className="col-3"></div>
-            <div className="col-3"></div>
-            <div className="col-3"></div>
-            <div className="col-3"></div>
+            <BlogCard/>
+            <BlogCard/>
+            <BlogCard/>
+            <BlogCard/>
+
           </div>
         </div>
       </section>
