@@ -260,7 +260,12 @@ footer address {
   background-color: #ffffff;
   border-radius: 10px;
 }
-
+.section-heading {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
 .blog-card img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -294,3 +299,12 @@ footer address {
   color: #777777;
 }
 /**============== Blog Section Ends ================= */
+
+/**============== Product Card Section Starts ================= */
+.product-card {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  
+}
+/**============== Product Card Section Ends ================= */
