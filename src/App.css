@@ -373,3 +373,36 @@ footer address {
   background-color: var(--color-ef3939);
 }
 /**============== Special Product Section Ends ================= */
+
+
+/**============== Famous Product Section Starts ================= */
+.famous-card .famous-content{
+  top: 10%;
+  left: 10%;
+}
+.famous-card img{
+  border-radius: 10px;
+}
+.famous-content h5 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 0 7px;
+  color: #ffffff;
+  
+}
+.famous-content h6 {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+/**============== Famous Product Section Ends =================== */

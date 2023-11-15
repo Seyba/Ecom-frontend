@@ -237,7 +237,50 @@ export default function Home() {
       <section className="famous-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-3"></div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="/images/appleWatchSeries7.jpg" className="img-fluid" alt="watch"/>
+                <div className="famous-content position-absolute">
+                  <h5>BIG SCREEN</h5>
+                  <h6>Smart Watch Series 7 </h6>
+                  <p>From $399 or $16.62/mo for 24 mo*</p>
+                </div>
+              </div>
+              
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="/images/macbookPro.jpg" className="img-fluid" alt="watch"/>
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">STUDIO DISPLAY</h5>
+                  <h6 className="text-dark">600 nits of brightness.</h6>
+                  <p className="text-dark">27-inch 5k Retina display</p>
+                </div>
+              </div>
+              
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="/images/iphoneProMax.jpg" className="img-fluid" alt="watch"/>
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">SMARTPHONES</h5>
+                  <h6 className="text-dark">Smartphone 13 Pro.</h6>
+                  <p className="text-dark">Now in Green. From $999.00 or $41.62/mo. for 24 mo. Footnote*</p>
+                </div>
+              </div>
+              
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="/images/soundBoxes.jpg" className="img-fluid" alt="watch"/>
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">HOME SPEAKERS</h5>
+                  <h6 className="text-dark">Room-filling Sound.</h6>
+                  <p className="text-dark">From $699 or $116.58/mo for 12 mo.*</p>
+                </div>
+              </div>
+              
+            </div>
           </div>
         </div>
       </section>
