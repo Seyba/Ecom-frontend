@@ -309,7 +309,7 @@ footer address {
   overflow: hidden;
 }
 .product-card:hover .action-bar{
-  right: 20px;
+  right: 28px;
 }
 .product-card .product-details h6 {
   color: var(--color-bf4800);
@@ -331,7 +331,8 @@ footer address {
   transition: 0.3s ease-in-out;
 }
 .wishlist {
-  top: 5%;
+  top: 8%;
   right: 10%;
+  
 }
 /**============== Product Card Section Ends ================= */
