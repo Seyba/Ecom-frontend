@@ -356,3 +356,13 @@ footer address {
   
 }
 /**============== Product Card Section Ends ================= */
+
+
+/**============== Special Product Section Starts ================= */
+
+.special-product {
+  background-color: #ffffff;
+  padding: 10px;  
+  border-radius: 10px;
+}
+/**============== Special Product Section Ends ================= */
