@@ -6,6 +6,8 @@ import { GrView } from "react-icons/gr"
 import { BsShuffle } from "react-icons/bs"
 import { HiOutlineShoppingBag } from "react-icons/hi2"
 import { CiHeart } from "react-icons/ci"
+import { FaRegHeart } from "react-icons/fa";
+
 
 
 export default function ProductCard(){
@@ -29,14 +31,14 @@ export default function ProductCard(){
                 />
                 <p className="price">$220.00</p>
             </div>
-            
+            <div className="position-absolute wishlist">
+                <Link>
+                    <CiHeart/>
+                </Link>
+            </div>
             <div className="position-absolute action-bar">
-                <div className="position-absolute wishlist">
-                    <Link>
-                        <CiHeart/>
-                    </Link>
-                </div>
-                <div className="d-flex flex-column">
+                
+                <div className="d-flex flex-column gap-10">
                     <Link>
                         <HiOutlineShoppingBag/>
                     </Link>
