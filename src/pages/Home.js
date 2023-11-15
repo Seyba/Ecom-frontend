@@ -234,6 +234,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3"></div>
+          </div>
+        </div>
+      </section>
       <section className="special-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
