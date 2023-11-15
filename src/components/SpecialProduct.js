@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component"
 import { Link } from 'react-router-dom'
-
+import Swiper from './swiper/Swiper'
 
 export default function SpecialProduct() {
   return (
@@ -11,6 +11,7 @@ export default function SpecialProduct() {
                 <div>
                     <img src="/images/appleWatch-1.jpg" className="img-fluid" alt="applewatch"/>
                 </div>
+                
                 <div className="special-product-content">
                     <h5 className="brand">Apple Watch</h5>
                     <h6>Apple Watch Series 2</h6>
