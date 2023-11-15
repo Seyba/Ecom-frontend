@@ -13,10 +13,10 @@ import { FaRegHeart } from "react-icons/fa";
 export default function ProductCard(){
   return (
     <div className="col-3">
-        <div className="product-card position-relative">
+        <Link className="product-card position-relative">
             <div className="product-image">
-                <img src="/images/appleWatchSeries2.jpg" alt="product"/>
-                <img src="/images/appleWatchSeries2Pink.jpg" alt="product"/>
+                <img src="/images/appleWatchSeries2.jpg" className="img-fluid" alt="product"/>
+                <img src="/images/appleWatchSeries2Pink.jpg" className="img-fluid" alt="product"/>
             </div>
             <div className="product-details">
                 <h6 className="brand">Havels</h6>
@@ -53,7 +53,7 @@ export default function ProductCard(){
                     
                 </div>
             </div>
-        </div>
+        </Link>
     </div>
   )
 }

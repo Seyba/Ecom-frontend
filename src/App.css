@@ -307,8 +307,16 @@ footer address {
   background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 0 10px #0000001a;
+
 }
 
+.product-card .product-image {
+  height: 270px;
+}
+.product-card .product-image > img{
+  object-fit: contain;
+}
 .product-card:hover .product-image > img:nth-child(1) {
   display: none;
 }

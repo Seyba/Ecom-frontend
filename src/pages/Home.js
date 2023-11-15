@@ -223,37 +223,35 @@ export default function Home() {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/canon.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/dell.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/sony.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/apple.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/sanDisk.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/samsung.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/intel.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/bose.png" alt="brand"/>
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4 w-15">
                     <img src="/images/lg.png" alt="brand"/>
                   </div>
                 </Marquee>
-              </div>
             </div>
           </div>
         </div>
