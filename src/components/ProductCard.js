@@ -15,7 +15,7 @@ export default function ProductCard(){
     <div className="col-3">
         <div className="product-card position-relative">
             <div className="product-image">
-                <img src="/images/smartSpeaker.jpg" alt="product"/>
+                <img src="/images/appleWatchSeries2.jpg" alt="product"/>
             </div>
             <div className="product-details">
                 <h6 className="brand">Havels</h6>

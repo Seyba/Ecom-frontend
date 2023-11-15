@@ -226,31 +226,31 @@ export default function Home() {
               <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
                   <div className="mx-4 w-25">
-                    <img src="/images/canon.jpg" alt="brand"/>
+                    <img src="/images/canon.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/dell.jpg" alt="brand"/>
+                    <img src="/images/dell.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/lg.jpg" alt="brand"/>
+                    <img src="/images/sony.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/apple.jpg" alt="brand"/>
+                    <img src="/images/apple.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/sandisk.jpg" alt="brand"/>
+                    <img src="/images/sanDisk.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/samsung.jpg" alt="brand"/>
+                    <img src="/images/samsung.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/intel.jpg" alt="brand"/>
+                    <img src="/images/intel.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/bose.jpg" alt="brand"/>
+                    <img src="/images/bose.png" alt="brand"/>
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="/images/sony.jpg" alt="brand"/>
+                    <img src="/images/lg.png" alt="brand"/>
                   </div>
                 </Marquee>
               </div>
