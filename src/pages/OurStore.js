@@ -1,6 +1,7 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
+import ReactStars from "react-rating-stars-component"
 
 export default function OurStore() {
   return (
@@ -145,6 +146,44 @@ export default function OurStore() {
                             <h3 className="filter-title">
                                 Random Product
                             </h3>
+                            <div>
+                                <div className="random-products d-flex mb-3 py-3">
+                                    <div className="w-25">
+                                        <img src="/images/headphone-1.jpg" className="img-fluid" alt="headphone"/>
+                                    </div>
+                                    <div className="w-75 px-3">
+                                        <h4>Kids headphones bulk 10 pack multi colored for students</h4>
+                                        <ReactStars 
+                                            count={5} 
+                                            edit={false}
+                                            size={24} 
+                                            activeColor="#ffd700"
+                                            value="3"
+                                        />
+                                        <h5 className="price">$100.00</h5>
+                                    </div>
+
+                                    
+                                </div>
+                                <div className="random-products d-flex mb-3 py-3">
+                                    <div className="w-25">
+                                        <img src="/images/appleWatch-1.jpg" className="img-fluid" alt="headphone"/>
+                                    </div>
+                                    <div className="w-75 px-3">
+                                        <h4>Apple Watch Series 2 -42 Mm Stainless</h4>
+                                        <ReactStars 
+                                            count={3} 
+                                            edit={false}
+                                            size={24} 
+                                            activeColor="#ffd700"
+                                            value="3"
+                                        />
+                                        <h5 className="price">$150.00</h5>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-9">
