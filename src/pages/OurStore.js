@@ -3,6 +3,8 @@ import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import ReactStars from "react-rating-stars-component"
 import { Link } from 'react-router-dom'
+import { FaGripLinesVertical, FaBars } from "react-icons/fa";
+
 
 export default function OurStore() {
   return (
@@ -191,14 +193,14 @@ export default function OurStore() {
                         <div className="filter-sort-grid">
                             <div className="d-flex justify-content-between align-items-center">
                                 <div className="d-flex align-items-center gap-10">
-                                    <p className="mb-0">
+                                    <p className="mb-0 d-block">
                                         Sort By:
                                     </p>
                                     <select name="" className="form-control form-select" id="">
-                                        <option vlaue="">Alphabetically A-Z</option>
-                                        <option vlaue="">Alphabetically Z-A</option>
-                                        <option vlaue="">Date old to new</option>
-                                        <option vlaue="">Date new to old</option>
+                                        <option vlaue="title-ascending">Alphabetically A-Z</option>
+                                        <option vlaue="title-descending">Alphabetically Z-A</option>
+                                        <option vlaue="created-ascending">Date old to new</option>
+                                        <option vlaue="created-descending">Date new to old</option>
                                         <option vlaue="">Best selling</option>
                                         <option vlaue="">Featured</option>
                                         <option vlaue="">Price low to high</option>
@@ -206,13 +208,25 @@ export default function OurStore() {
                                     </select>
                                 </div>
                                 <div className="d-flex justify-content-center align-items-center">
-                                    <p>10 Products</p>
-                                    <div>
-                                        <Link></Link>
+                                    <p className="totalProducts">10 Products</p>
+                                    <div className="d-flex gap-10 align-items-center">
+                                        <Link className="grid-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="currentColor" width="20" height="20" viewBox="0 0 50 50">
+                                                <path d="M38 5H45V45H38zM16 5H23V45H16zM27 5H34V45H27zM5 5H12V45H5z"></path>
+                                            </svg>
+                                        </Link>
+                                        <Link className="grid-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="currentColor" width="20" height="20" viewBox="0 0 50 50">
+                                                <path d="M38 5H45V45H38zM16 5H23V45H16zM27 5H34V45H27zM5 "></path>
+                                            </svg>
+                                        </Link>
+                                        <Link className="grid-link">
+                                            <FaGripLinesVertical/>
+                                        </Link>
+                                        <Link className="grid-link">
+                                            <FaBars/>
+                                        </Link>
                                     </div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
                                 </div>
                             </div>
                             
