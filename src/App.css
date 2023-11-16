@@ -411,7 +411,7 @@ footer address {
 .filter-card {
   background-color: #ffffff;
   border-radius: 10px;
-  padding: 10px 15px;
+  padding: 10px 15px 25px;
 }
 .filter-title {
   font-size: 16px;
@@ -441,9 +441,21 @@ footer address {
 }
 .sub-title{
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-1c1c1b);
   margin-bottom: 15px;
   margin-top: 15px;
+}
+.colors {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.colors li {
+  width: 20px;
+  height: 20px;
+  background-color: #ff0000;
+  border-radius: 50%;
 }
 /**============== Our Store Section Ends ===================== */
