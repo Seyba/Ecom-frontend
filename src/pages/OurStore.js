@@ -2,6 +2,7 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import ReactStars from "react-rating-stars-component"
+import { Link } from 'react-router-dom'
 
 export default function OurStore() {
   return (
@@ -187,7 +188,35 @@ export default function OurStore() {
                         </div>
                     </div>
                     <div className="col-9">
-
+                        <div className="filter-sort-grid">
+                            <div className="d-flex justify-content-between align-items-center">
+                                <div className="d-flex align-items-center gap-10">
+                                    <p className="mb-0">
+                                        Sort By:
+                                    </p>
+                                    <select name="" className="form-control form-select" id="">
+                                        <option vlaue="">Alphabetically A-Z</option>
+                                        <option vlaue="">Alphabetically Z-A</option>
+                                        <option vlaue="">Date old to new</option>
+                                        <option vlaue="">Date new to old</option>
+                                        <option vlaue="">Best selling</option>
+                                        <option vlaue="">Featured</option>
+                                        <option vlaue="">Price low to high</option>
+                                        <option vlaue="">Price high to low</option>
+                                    </select>
+                                </div>
+                                <div className="d-flex justify-content-center align-items-center">
+                                    <p>10 Products</p>
+                                    <div>
+                                        <Link></Link>
+                                    </div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
