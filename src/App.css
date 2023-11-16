@@ -406,3 +406,44 @@ footer address {
 }
 
 /**============== Famous Product Section Ends =================== */
+
+/**============== Our Store Section Starts =================== */
+.filter-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+.filter-card ul, .filter-card, .form-check-label  {
+  list-style: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+.filter-card ul li:hover {
+  color: var(--color-232f3e)
+}
+.filter-card .form-check-input:checked {
+  background-color: var(--color-febd69);
+  border-color: var(--color-febd69);
+
+}
+.filter-card .form-check-input:focus {
+  box-shadow: none;
+  border-color: var(--color-febd69);
+}
+.sub-title{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/**============== Our Store Section Ends ===================== */
