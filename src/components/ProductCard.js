@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import ReactStars from "react-rating-stars-component"
 import { GiShoppingBag } from "react-icons/gi"
 import { GrView } from "react-icons/gr"
@@ -10,50 +10,106 @@ import { FaRegHeart } from "react-icons/fa";
 
 
 
-export default function ProductCard(){
+export default function ProductCard(props){
+    const { grid } = props
+    let location = useLocation()
+    console.log(location)
+    const gridPath = (location.pathname === '/store')
+
   return (
-    <div className="col-3">
-        <Link className="product-card position-relative">
-            <div className="product-image">
-                <img src="/images/appleWatchSeries2.jpg" className="img-fluid" alt="product"/>
-                <img src="/images/appleWatchSeries2Pink.jpg" className="img-fluid" alt="product"/>
-            </div>
-            <div className="product-details">
-                <h6 className="brand">Havels</h6>
-                <h5 className="product-title">
-                    Sony EXTRA BASS Portable Splash-Proof Wireless Speaker
-                </h5>
-                <ReactStars 
-                    count={5} 
-                    edit={false}
-                    size={24} 
-                    activeColor="#ffd700"
-                    value="3"
-                />
-                <p className="price">$220.00</p>
-            </div>
-            <div className="position-absolute wishlist">
-                <Link>
-                    <CiHeart/>
-                </Link>
-            </div>
-            <div className="position-absolute action-bar">
-                
-                <div className="d-flex flex-column gap-10">
-                    <Link>
-                        <HiOutlineShoppingBag/>
-                    </Link>
-                    
-                    <Link>
-                        <BsShuffle/>
-                    </Link>
-                    <Link>
-                        <GrView/>
-                    </Link>
-                    
+    <>
+        <div className={`${gridPath}`? `gr-${grid}`:`col-3`}>
+            <Link className="product-card position-relative">
+                <div className="product-image">
+                    <img src="/images/appleWatchSeries2.jpg" className="img-fluid" alt="product"/>
+                    <img src="/images/appleWatchSeries2Pink.jpg" className="img-fluid" alt="product"/>
                 </div>
-            </div>
-        </Link>
-    </div>
+                <div className="product-details">
+                    <h6 className="brand">Havels</h6>
+                    <h5 className="product-title">
+                        Sony EXTRA BASS Portable Splash-Proof Wireless Speaker
+                    </h5>
+                    <ReactStars 
+                        count={5} 
+                        edit={false}
+                        size={24} 
+                        activeColor="#ffd700"
+                        value="3"
+                    />
+                    <p className={`description ${grid === 12 ? "d-block" : "d-none" }`}>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt...
+                    </p>
+                    <p className="price">$220.00</p>
+                </div>
+                <div className="position-absolute wishlist">
+                    <Link>
+                        <CiHeart/>
+                    </Link>
+                </div>
+                <div className="position-absolute action-bar">
+                    
+                    <div className="d-flex flex-column gap-10">
+                        <Link>
+                            <HiOutlineShoppingBag/>
+                        </Link>
+                        
+                        <Link>
+                            <BsShuffle/>
+                        </Link>
+                        <Link>
+                            <GrView/>
+                        </Link>
+                        
+                    </div>
+                </div>
+            </Link>
+        </div>
+        <div className={`${gridPath}`? `gr-${grid}`:`col-3`}>
+            <Link className="product-card position-relative">
+                <div className="product-image">
+                    <img src="/images/appleWatchSeries2.jpg" className="img-fluid" alt="product"/>
+                    <img src="/images/appleWatchSeries2Pink.jpg" className="img-fluid" alt="product"/>
+                </div>
+                <div className="product-details">
+                    <h6 className="brand">Havels</h6>
+                    <h5 className="product-title">
+                        Sony EXTRA BASS Portable Splash-Proof Wireless Speaker
+                    </h5>
+                    <ReactStars 
+                        count={5} 
+                        edit={false}
+                        size={24} 
+                        activeColor="#ffd700"
+                        value="3"
+                    />
+                    <p className={`description ${grid === 12 ? "d-block" : "d-none" }`}>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt...
+                    </p>
+                    <p className="price">$220.00</p>
+                </div>
+                <div className="position-absolute wishlist">
+                    <Link>
+                        <CiHeart/>
+                    </Link>
+                </div>
+                <div className="position-absolute action-bar">
+                    
+                    <div className="d-flex flex-column gap-10">
+                        <Link>
+                            <HiOutlineShoppingBag/>
+                        </Link>
+                        
+                        <Link>
+                            <BsShuffle/>
+                        </Link>
+                        <Link>
+                            <GrView/>
+                        </Link>
+                        
+                    </div>
+                </div>
+            </Link>
+        </div>
+    </>
   )
 }

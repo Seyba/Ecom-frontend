@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import ReactStars from "react-rating-stars-component"
 import { Link } from 'react-router-dom'
 import { FaGripLinesVertical, FaBars } from "react-icons/fa";
-
+import ProductCard from '../components/ProductCard'
 
 export default function OurStore() {
-  return (
+    const [grid, setGrid] = useState(4)
+    const gridSetter = i => {
+        setGrid(i)
+    }
+    //alert(grid)
+
+    return (
     <>
         <Meta title={"Our Store"}/>
         <BreadCrumb title="Our Store" />
@@ -190,10 +196,10 @@ export default function OurStore() {
                         </div>
                     </div>
                     <div className="col-9">
-                        <div className="filter-sort-grid">
+                        <div className="filter-sort-grid mb-4">
                             <div className="d-flex justify-content-between align-items-center">
                                 <div className="d-flex align-items-center gap-10">
-                                    <p className="mb-0 d-block">
+                                    <p className="mb-0 d-block sort-by">
                                         Sort By:
                                     </p>
                                     <select name="" className="form-control form-select" id="">
@@ -208,28 +214,32 @@ export default function OurStore() {
                                     </select>
                                 </div>
                                 <div className="d-flex justify-content-center align-items-center">
-                                    <p className="totalProducts">10 Products</p>
+                                    <p className="totalProducts mb-0">10 Products</p>
                                     <div className="d-flex gap-10 align-items-center">
-                                        <Link className="grid-link">
+                                        <Link onClick={() => setGrid(3)} className="grid-link">
                                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="currentColor" width="20" height="20" viewBox="0 0 50 50">
                                                 <path d="M38 5H45V45H38zM16 5H23V45H16zM27 5H34V45H27zM5 5H12V45H5z"></path>
                                             </svg>
                                         </Link>
-                                        <Link className="grid-link">
+                                        <Link onClick={() => setGrid(4)} className="grid-link">
                                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="currentColor" width="20" height="20" viewBox="0 0 50 50">
                                                 <path d="M38 5H45V45H38zM16 5H23V45H16zM27 5H34V45H27zM5 "></path>
                                             </svg>
                                         </Link>
-                                        <Link className="grid-link">
+                                        <Link onClick={() => setGrid(6)} className="grid-link">
                                             <FaGripLinesVertical/>
                                         </Link>
-                                        <Link className="grid-link">
+                                        <Link onClick={() => setGrid(12)} className="grid-link">
                                             <FaBars/>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            
+                            <div className="products-list pb-4">
+                                <div className="d-flex gap-10 flex-wrap">
+                                <ProductCard grid={grid}/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
