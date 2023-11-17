@@ -42,21 +42,21 @@ export default function ProductCard(props){
                     <p className="price">$220.00</p>
                 </div>
                 <div className="position-absolute wishlist">
-                    <Link>
+                    <Link className="text-dark">
                         <CiHeart/>
                     </Link>
                 </div>
                 <div className="position-absolute action-bar">
                     
                     <div className="d-flex flex-column gap-10">
-                        <Link>
+                        <Link className="text-dark">
                             <HiOutlineShoppingBag/>
                         </Link>
                         
-                        <Link>
+                        <Link className="text-dark">
                             <BsShuffle/>
                         </Link>
-                        <Link>
+                        <Link className="text-dark">
                             <GrView/>
                         </Link>
                         
@@ -87,22 +87,22 @@ export default function ProductCard(props){
                     </p>
                     <p className="price">$220.00</p>
                 </div>
-                <div className="position-absolute wishlist">
-                    <Link>
+                <div className="position-absolute wishlist ">
+                    <Link className="text-dark">
                         <CiHeart/>
                     </Link>
                 </div>
                 <div className="position-absolute action-bar">
                     
                     <div className="d-flex flex-column gap-10">
-                        <Link>
+                        <Link className="text-dark">
                             <HiOutlineShoppingBag/>
                         </Link>
                         
-                        <Link>
+                        <Link className="text-dark">
                             <BsShuffle/>
                         </Link>
-                        <Link >
+                        <Link className="text-dark">
                             <GrView/>
                         </Link>
                         
