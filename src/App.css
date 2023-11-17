@@ -558,12 +558,22 @@ footer address {
 }
 .contact-title {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 35px;
   text-align: left;
   margin-top: 0;
   color: var(--color-131921);
   padding: 0;
   letter-spacing: 0;
+}
+.info-content {
+  color: var(--color-777777);
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.info-content span {
+  padding-right: 10px;
 }
 /**============== Contact Section Ends ======================= */
