@@ -545,3 +545,25 @@ footer address {
   top: 20%;
 }
 /**============== Our Store Section Ends ===================== */
+
+/**============== Contact Section Starts ===================== */
+.contact-inner-wrapper {
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  gap: 10px;
+}
+.contact-inner-wrapper > div {
+  width: 48%;
+}
+.contact-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 0;
+  color: var(--color-131921);
+  padding: 0;
+  letter-spacing: 0;
+}
+/**============== Contact Section Ends ======================= */
