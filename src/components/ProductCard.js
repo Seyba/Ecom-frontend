@@ -102,7 +102,7 @@ export default function ProductCard(props){
                         <Link>
                             <BsShuffle/>
                         </Link>
-                        <Link>
+                        <Link >
                             <GrView/>
                         </Link>
                         
