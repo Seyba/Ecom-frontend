@@ -27,22 +27,46 @@ export const Contact = () => {
             <div className="col-12 mt-5">
               <div className="contact-inner-wrapper d-flex justify-content-between">
                 <div>
-                  <h3 className="contact-title">Contact </h3>
-                  <div className="mb-3">
-                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Name"/>
-                  </div>
-                  <div className="mb-3">
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email"/>
-                  </div>
-                  <div className="mb-3">
-                    <input type="number" className="form-control" id="exampleFormControlInput1" placeholder="Phone Number"/>
-                  </div>
-                  <div className="mb-3">
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Comment" rows="4"></textarea>
-                  </div>
-                  <Link className="button">
-                    Send 
-                  </Link>
+                  <form action="" className="d-flex flex-column gap-15">
+                    <h3 className="contact-title">Contact </h3>
+                    <div>
+                      <input 
+                        type="text" 
+                        className="form-control" 
+                        id="exampleFormControlInput1" 
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div>
+                      <input 
+                      type="email" 
+                      className="form-control" 
+                      id="exampleFormControlInput1" 
+                      placeholder="Email"
+                    />
+                    </div>
+                    <div>
+                      <input 
+                        type="tel" 
+                        className="form-control" 
+                        id="exampleFormControlInput1" 
+                        placeholder="Phone Number"
+                      />
+                    </div>
+                    <div>
+                      <textarea 
+                        className="form-control" 
+                        id="exampleFormControlTextarea1" 
+                        placeholder="Comment" 
+                        rows="4">
+                      </textarea>
+                    </div>
+                    <div>
+                      <button className="button">
+                        Send
+                      </button>
+                    </div>
+                  </form>
                 </div>
                 <div>
                   <h3 className="contact-title">Get In Touch With Us</h3>
