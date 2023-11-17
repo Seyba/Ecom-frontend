@@ -144,7 +144,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-12">
             <p className="text-center mb-0 text-white">
-              &copy; {new Date().getFullYear()}; Powered by <Link className="text-white" to="/https://github.com/Seyba">SEYBA</Link>
+              &copy; {new Date().getFullYear()}; Powered by <Link className="text-white" to="https://github.com/Seyba">SEYBA</Link>
             </p>
           </div>
 
