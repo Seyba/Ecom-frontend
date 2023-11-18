@@ -560,6 +560,7 @@ footer address {
   background-color: var(--color-f5f5f7);
   border-radius: 5px;
   border-color: transparent;
+  padding: 10px;
 }
 .contact-title {
   font-size: 26px;

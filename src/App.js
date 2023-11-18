@@ -7,6 +7,7 @@ import Layout from './components/Layout'
 import OurStore from './pages/OurStore'
 import { Blog } from './pages/Blog'
 import { Contact } from './pages/Contact'
+import { CompareProduct } from './pages/CompareProduct'
 
 function App() {
   return(
@@ -20,6 +21,7 @@ function App() {
             <Route path="/store" element={<OurStore/>}/>
             <Route path="/blogs" element={<Blog/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/compare-product" element={<CompareProduct/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
