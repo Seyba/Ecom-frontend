@@ -279,7 +279,6 @@ export default function Home() {
                   <p className="text-dark">From $699 or $116.58/mo for 12 mo.*</p>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
