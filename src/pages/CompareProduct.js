@@ -104,7 +104,7 @@ export const CompareProduct = () => {
                             </div>
                             
                             <div className="product-card-image">
-                                <img src="/images/headphone-2.jpg" alt="compare"/>
+                                <img src="/images/headphone-2.jpg" className="img-fluid" alt="compare"/>
                             </div>
                             <div className="compare-product-details">
                                 <h5 className="title">Kids Headphones Bulk 10 Pack Multi Colored For Students</h5>

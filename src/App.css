@@ -590,7 +590,8 @@ footer address {
   background-color: #ffffff;
   border-radius: 10px;
 }
-.compare-product-card .cross {
+.compare-product-card .cross,
+.wishlist-card .cross {
   top: 15px;
   right: 15px;
   width: 25px;
