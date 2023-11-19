@@ -5,6 +5,7 @@ import ReactStars from "react-rating-stars-component"
 import { Link } from 'react-router-dom'
 import { FaGripLinesVertical, FaBars } from "react-icons/fa";
 import ProductCard from '../components/ProductCard'
+import { Color } from '../components/Color'
 
 export default function OurStore() {
     const [grid, setGrid] = useState(4)
@@ -78,24 +79,7 @@ export default function OurStore() {
                                 <h5 className="sub-title">Colors</h5>
                                 <div>
                                     <ul className="colors p-0">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li> 
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li> 
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>      
+                                        <Color/>
                                     </ul>
                                 </div>
                                 <h5 className="sub-title">Size</h5>
