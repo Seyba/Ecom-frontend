@@ -15,7 +15,7 @@ export default function BlogCard(){
             <p className="desc">
                 You’re only as good as your last collection, which is an enormous pressure. I think there is something about luxury...
             </p>
-            <Link to="" className="button">READ MORE</Link>
+            <Link to="/blog/id" className="button">READ MORE</Link>
         </div>
     </div>
   )
