@@ -10,6 +10,7 @@ import { Contact } from './pages/Contact'
 import { CompareProduct } from './pages/CompareProduct'
 import { Wishlist } from './pages/Wishlist'
 import { Login } from './pages/Login'
+import { ForgotPassword } from './pages/ForgotPassword'
 
 function App() {
   return(
@@ -26,6 +27,7 @@ function App() {
             <Route path="/compare-product" element={<CompareProduct/>}/>
             <Route path="/wishlist" element={<Wishlist/>}/>
             <Route path="/login" element={<Login/>}/>
+            <Route path="/forgot-password" element={<ForgotPassword/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

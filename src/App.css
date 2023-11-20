@@ -638,11 +638,15 @@ footer address {
   text-align: center;
   color: var(--color-777777);
 }
+.auth-card p{
+  font-size: 13px;
+  color: var(--color-777777);
+}
 .auth-card .form-control {
   height: 50px;
   background-color: var(--color-f5f5f7);
   font-size: 14px;
-  border-radius: 10px;
+  border-radius: 5px;
   border-color: transparent;
 }
 
