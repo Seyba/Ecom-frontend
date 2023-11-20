@@ -303,6 +303,17 @@ footer address {
   margin: 0 0 15px;
   color: #777777;
 }
+
+.single-blog-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+
+}
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
 /**============== Blog Section Ends ================= */
 
 /**============== Product Card Section Starts ================= */
