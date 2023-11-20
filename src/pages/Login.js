@@ -11,10 +11,10 @@ export const Login = () => {
         <section className="login-wrapper py-5 home-wrapper-2">
             <div className="row">
                 <div className="col-12">
-                    <div className="login-card">
+                    <div className="auth-card">
                         <h3>Login</h3>
-                        <form action="">
-                            <div>
+                        <form className="d-flex flex-column gap-30" action="">
+                            <div >
                                 <input 
                                     type="email"
                                     name="email"
@@ -22,7 +22,7 @@ export const Login = () => {
                                     className="form-control"
                                 />
                             </div>
-                            <div>
+                            <div className="mt-1">
                                 <input 
                                     type="password"
                                     name="password"
@@ -31,10 +31,10 @@ export const Login = () => {
                                 />
                             </div>
                             <div>
-                                <Link to="/forgot-password">Forgot Password</Link>
+                                <Link to="/forgot-password">Forgot Your Password?</Link>
                             </div>
-                            <div className="d-flex justify-content-center gap-15 align-items-center">
-                                <button className="button">Forgot Password</button>
+                            <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
+                                <button className="button">Login</button>
                                 <Link className="button signup">Signup</Link>
                             </div>
                         </form>
