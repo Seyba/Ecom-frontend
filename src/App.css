@@ -314,6 +314,14 @@ footer address {
   color: var(--color-777777);
   font-size: 14px;
 }
+.blog-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-777777);
+}
+.blog-link:hover {
+  color: var(--color-777777);
+}
 /**============== Blog Section Ends ================= */
 
 /**============== Product Card Section Starts ================= */
