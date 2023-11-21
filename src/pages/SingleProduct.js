@@ -11,23 +11,39 @@ export const SingleProduct = (props) => {
         <Meta title="Product Name"/>
         <section className="main-product-wrapper py-5 home-wrapper-2">
             <div className="container-xxl">
-                <div className="row">
-                    <div className="product-card">
+                <div className="product-card">
+                    <div className="row">
                         <div className="col-6">
-                            <img src="/images/headphone-1.jpg" className="img-fluid border-2" alt="headphone"/>
+                            <div className="prod_img mb-4">
+                                <img src="/images/headphoneBlue.jpg" className="img-fluid" alt="headphone"/>
+                            </div>
+                            <div className="row mb-4">
+                                <div className="col-6">
+                                    <div className="prod_img">
+                                        <img src="/images/headphone-2.jpg" alt="headphone"/>
+                                    </div>
+                                </div>
+                                <div className="col-6">
+                                    <div className="prod_img">
+                                        <img src="/images/headphone-2.jpg" alt="headphone"/>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="row">
                                 <div className="col-6">
-                                    <div>
+                                    <div className="prod_img">
                                         <img src="/images/headphone-2.jpg" alt="headphone"/>
                                     </div>
-                                    <div>
+                                </div>
+                                <div className="col-6">
+                                    <div className="prod_img">
                                         <img src="/images/headphone-2.jpg" alt="headphone"/>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
                         <div className="col-6">
+                            <h3>Kids Headphones Bulk 10 Pack Multi Colored For Students</h3>
                         </div>
                     </div>
                 </div>
