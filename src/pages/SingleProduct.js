@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import { Link } from 'react-router-dom'
 import Meta from '../components/Meta'
 import ProductCard from '../components/ProductCard'
+import ReactStars from "react-rating-stars-component"
 
 export const SingleProduct = (props) => {
+    const [orderedProduct, setOrderedProduct] = useState(0)
+
   return (
     <>
         <BreadCrumb title={"Product Name"}/>
@@ -79,7 +82,25 @@ export const SingleProduct = (props) => {
             <div className="container-xxl">
                 <div className="row">
                     <div className="col-12">
-
+                        <div className="review-head d-flex justify-content-between align-items-end">
+                            <div>
+                                <h4 className="mb-2">Customer Reviews</h4>
+                                <div className="d-flex gap-10 align-items-center">
+                                    <ReactStars 
+                                        count={5} 
+                                        edit={false}
+                                        size={24} 
+                                        activeColor="#ffd700"
+                                        value="3"
+                                    />
+                                    <p className="mb-0">Based on 4 reviews</p>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
