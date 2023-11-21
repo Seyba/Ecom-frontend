@@ -18,6 +18,7 @@ import { ShippingPolicy } from './pages/ShippingPolicy'
 import { PrivacyPolicy } from './pages/PrivacyPolicy'
 import { TermsAndConditions } from './pages/TermsAndConditions'
 import { RefundPolicy } from './pages/RefundPolicy'
+import { SingleProduct } from './pages/SingleProduct'
 
 function App() {
   return(
@@ -29,6 +30,7 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/content" element={<Content/>}/>
             <Route path="/store" element={<OurStore/>}/>
+            <Route path="/product/:id" element={<SingleProduct/>}/>
             <Route path="/blogs" element={<Blog/>}/>
             <Route path="/blog/:id" element={<SingleBlog/>}/>
             <Route path="/contact" element={<Contact/>}/>

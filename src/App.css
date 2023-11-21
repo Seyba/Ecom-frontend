@@ -686,3 +686,10 @@ footer address {
 }
 
 /**============== Login Section Ends =================================== */
+
+/**============== Terms and Conditions Section Starts =================================== */
+.policy {
+  background-color: #ffffff;
+  padding: 30px;
+}
+/**============== Terms and Conditions Section Ends ===================================== */
