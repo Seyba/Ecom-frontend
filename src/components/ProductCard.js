@@ -13,13 +13,13 @@ import { FaRegHeart } from "react-icons/fa";
 export default function ProductCard(props){
     const { grid } = props
     let location = useLocation()
-    console.log(location)
+    console.log(location.pathname)
     const gridPath = (location.pathname === '/store')
-
   return (
     <>
-        <div className={`${gridPath}`? `gr-${grid}`:`col-3`}>
-            <Link className="product-card position-relative">
+        
+        <div className={`${location.pathname === '/store'}? gr-${grid} : "col-3"`}>
+            <Link to="/product/id" className="product-card position-relative">
                 <div className="product-image">
                     <img src="/images/appleWatchSeries2.jpg" className="img-fluid" alt="product"/>
                     <img src="/images/appleWatchSeries2Pink.jpg" className="img-fluid" alt="product"/>

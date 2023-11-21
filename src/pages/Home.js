@@ -226,10 +226,18 @@ export default function Home() {
             <div className="col-12">
               <h3 className="section-heading">Featured Collection</h3>
             </div>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
             
           </div>
         </div>
@@ -304,11 +312,18 @@ export default function Home() {
             <div className="col-12">
               <h3 className="section-heading">Our Popular Products</h3>
             </div>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            
+            <div className="col-3">
+              <ProductCard/>
+            </div>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
+            <div className="col-3">
+              <ProductCard/>
+            </div>
           </div>
         </div>
       </section>
