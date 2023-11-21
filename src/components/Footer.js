@@ -81,19 +81,19 @@ export default function Footer() {
               <div className="footer-links">
                 <ul>
                   <li>
-                    <Link className="text-white py-1 mb-1">Privacy Policy</Link>
+                    <Link to="/privacy-policy" className="text-white py-1 mb-1">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-1 mb-1">Refund Policy</Link>
+                    <Link to="/refund-policy" className="text-white py-1 mb-1">Refund Policy</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-1 mb-1">Shipping Policy</Link>
+                    <Link to="/shipping-policy" className="text-white py-1 mb-1">Shipping Policy</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-1 mb-1">Terms Of Service</Link>
+                    <Link to="/terms-and-conditions" className="text-white py-1 mb-1">Terms Of Service</Link>
                   </li>
                   <li>
-                    <Link className="text-white py-1 mb-1">Blogs</Link>
+                    <Link to="/blogs" className="text-white py-1 mb-1">Blogs</Link>
                   </li>
                 </ul>
               </div>
