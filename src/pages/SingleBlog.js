@@ -16,7 +16,7 @@ export const SingleBlog = () => {
                             <h3 className="title">A Beautiful Sunday Morning Renaissance</h3>
                             <img src="/images/blogImg1.jpg" className="img-fluid w-100 my-4" alt="blog" />
                             <p>You’re only as good as your last collection, which is an enormous pressure. I think there is something about luxury – it’s not something people need, but it’s what they want. It really pulls at their heart. I have a fantastic relationship with money.Scelerisque sociosqu ullamcorper urna nisl mollis vestibulum pretium commodo inceptos cum condimentum placerat diam venenatis blandit hac eget dis lacus a parturient a accumsan nisl ante vestibulum.</p>
-                            <div className="d-flex justify-content-between">
+                            <div className="d-flex justify-content-between ">
                                 <div>
                                     <Link className="blog-link" to="/blogs">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">

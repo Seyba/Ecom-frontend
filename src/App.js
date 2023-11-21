@@ -14,6 +14,10 @@ import { ForgotPassword } from './pages/ForgotPassword'
 import { Signup } from './pages/Signup'
 import { ResetPassword } from './pages/ResetPassword'
 import { SingleBlog } from './pages/SingleBlog'
+import { ShippingPolicy } from './pages/ShippingPolicy'
+import { PrivacyPolicy } from './pages/PrivacyPolicy'
+import { TermsAndConditions } from './pages/TermsAndConditions'
+import { RefundPolicy } from './pages/RefundPolicy'
 
 function App() {
   return(
@@ -34,6 +38,10 @@ function App() {
             <Route path="/signup" element={<Signup/>}/>
             <Route path="/forgot-password" element={<ForgotPassword/>}/>
             <Route path="/reset-password" element={<ResetPassword/>}/>
+            <Route path="/shipping-policy" element={<ShippingPolicy/>}/>
+            <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+            <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
+            <Route path="/refund-policy" element={<RefundPolicy/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
