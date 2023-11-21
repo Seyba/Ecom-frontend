@@ -39,7 +39,19 @@ export const SingleProduct = (props) => {
                     <div className="col-12">
                         <h3 className="section-heading">Our Popular Products</h3>
                     </div>
-                    <ProductCard/>
+                    <div className="col-3">
+                        <ProductCard/>
+                    </div>
+                    <div className="col-3">
+                        <ProductCard/>
+                    </div>
+                    <div className="col-3">
+                        <ProductCard/>
+                    </div>
+                    <div className="col-3">
+                        <ProductCard/>
+                    </div>
+                    
                 </div>
             </div>
         </section>
