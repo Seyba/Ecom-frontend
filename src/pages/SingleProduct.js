@@ -82,23 +82,25 @@ export const SingleProduct = (props) => {
             <div className="container-xxl">
                 <div className="row">
                     <div className="col-12">
-                        <div className="review-head d-flex justify-content-between align-items-end">
-                            <div>
-                                <h4 className="mb-2">Customer Reviews</h4>
-                                <div className="d-flex gap-10 align-items-center">
-                                    <ReactStars 
-                                        count={5} 
-                                        edit={false}
-                                        size={24} 
-                                        activeColor="#ffd700"
-                                        value="3"
-                                    />
-                                    <p className="mb-0">Based on 4 reviews</p>
-                                    
+                        <div className="review-inner-wrapper">
+                            <div className="review-head d-flex justify-content-between align-items-end">
+                                <div>
+                                    <h4 className="mb-2">Customer Reviews</h4>
+                                    <div className="d-flex gap-10 align-items-center">
+                                        <ReactStars 
+                                            count={5} 
+                                            edit={false}
+                                            size={24} 
+                                            activeColor="#ffd700"
+                                            value="3"
+                                        />
+                                        <p className="mb-0">Based on 4 reviews</p>
+                                        
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
+                                <div>
+                                    {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
+                                </div>
                             </div>
                         </div>
                     </div>
