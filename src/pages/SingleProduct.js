@@ -104,7 +104,8 @@ export const SingleProduct = (props) => {
                                     {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
                                 </div>
                             </div>
-                            <div className="review-form">
+                            <div className="review-form py-4">
+                                <h4>Write a review</h4>
                                 <form action="" className="d-flex flex-column gap-15">
                                     <div>
                                         <ReactStars 
@@ -124,12 +125,31 @@ export const SingleProduct = (props) => {
                                             rows="4">
                                         </textarea>
                                     </div>
-                                    <div>
+                                    <div className="d-flex justify-content-end">
                                         <button className="button">
-                                            Send
+                                            Submit Review
                                         </button>
                                     </div>
                                 </form>
+                            </div>
+                            <div className="reviews mt-4">
+                                <div className="review">
+                                    <div className="d-flex gap-10 align-items-center">
+                                        <h6 className="mb-0">John</h6>
+                                        <ReactStars 
+                                            count={5} 
+                                            edit={false}
+                                            size={24} 
+                                            activeColor="#ffd700"
+                                            value="3"
+                                        />
+                                        
+                                    </div>
+                                    <p className="mt-3">
+                                        I really love this headset
+                                        It gives me what i really want.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

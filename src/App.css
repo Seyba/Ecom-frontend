@@ -718,4 +718,18 @@ footer address {
   font-size: 14px;
   color: var(--color-777777);
 }
-/**============== Single Product Section Ends ===================================== */
+.review-form h4 {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+.review-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review:not(){
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+/**========================== Single Product Section Ends ========================= */
