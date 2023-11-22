@@ -55,9 +55,10 @@ export const SingleProduct = (props) => {
         <section  className="description-wrapper py5 home-wrapper-2">
             <div className="container-xxl">
                 <div className="row">
+                    <h4>Description</h4>
                     <div className="col-12">
                         <div className="bg-white p-3">
-                            <h4>Description</h4>
+                            
                             <p>
                             "At vero eos et accusamus et iusto odio dignissimos ducimus qui 
                             blanditiis praesentium voluptatum deleniti atque corrupti quos 
@@ -81,6 +82,7 @@ export const SingleProduct = (props) => {
         <section className="reviews-wrapper py-5 home-wrapper-2">
             <div className="container-xxl">
                 <div className="row">
+                    <h4>Reviews</h4>
                     <div className="col-12">
                         <div className="review-inner-wrapper">
                             <div className="review-head d-flex justify-content-between align-items-end">
@@ -101,6 +103,33 @@ export const SingleProduct = (props) => {
                                 <div>
                                     {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
                                 </div>
+                            </div>
+                            <div className="review-form">
+                                <form action="" className="d-flex flex-column gap-15">
+                                    <div>
+                                        <ReactStars 
+                                            count={5} 
+                                            edit={true}
+                                            size={24} 
+                                            activeColor="#ffd700"
+                                            value="3"
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <textarea 
+                                            className="form-control" 
+                                            id="exampleFormControlTextarea1" 
+                                            placeholder="Comment" 
+                                            rows="4">
+                                        </textarea>
+                                    </div>
+                                    <div>
+                                        <button className="button">
+                                            Send
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
