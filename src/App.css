@@ -701,6 +701,42 @@ footer address {
 .prod_img {
   border: 1px solid var(--color-d9d9d9);
 }
+.prod_detail__title {
+  border-bottom: 1px solid var(--color-d9d9d9);
+  font-size: 22px;
+  font-weight: 600;
+}
+.prod_detail__price {
+  font-size: 22px;
+  font-weight: 600;
+}
+.prod_detail__review p{
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.prod_detail__link{
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.prod_detail__link:hover{
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.desc-radius{
+  border-radius: 10px;
+}
+.description-wrapper h4,
+.reviews-wrapper h3{
+  font-size: 26px;
+  color: var(--color-1c1c1b);
+  font-weight: 600;
+}
+.description-wrapper p{
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
 .review-inner-wrapper {
   background-color: #ffffff;
   padding: 30px;

@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 import Meta from '../components/Meta'
 import ProductCard from '../components/ProductCard'
 import ReactStars from "react-rating-stars-component"
+import ReactImageZoom from "react-image-zoom"
 
-export const SingleProduct = (props) => {
+export const SingleProduct = () => {
     const [orderedProduct, setOrderedProduct] = useState(0)
-
+    const props = {width: 400, height: 250, zooWidth: 500, img: "/images/headphoneBlue.jpg" }
   return (
     <>
         <BreadCrumb title={"Product Name"}/>
@@ -22,6 +23,7 @@ export const SingleProduct = (props) => {
                             </div>
                             <div className="row mb-4">
                                 <div className="col-6">
+                                    
                                     <div className="prod_img">
                                         <img src="/images/headphone-2.jpg" alt="headphone"/>
                                     </div>
@@ -46,7 +48,20 @@ export const SingleProduct = (props) => {
                             </div>
                         </div>
                         <div className="col-6">
-                            <h3>Kids Headphones Bulk 10 Pack Multi Colored For Students</h3>
+                            <h3 className="prod_detail__title pb-2">Kids Headphones Bulk 10 Pack Multi Colored For Students</h3>
+                            <h3 className="prod_detail__price mb-3">$150.00</h3>
+                            <div className="prod_detail__review d-flex gap-10 align-items-center">
+                                <ReactStars 
+                                    count={5} 
+                                    edit={false}
+                                    size={24} 
+                                    activeColor="#ffd700"
+                                    value="3"
+                                />
+                                <p className="mb-0">Based on (8 reviews)</p>        
+                            </div>
+                            <Link className="prod_detail__link" to="">Write a review</Link> 
+                            
                         </div>
                     </div>
                 </div>
@@ -57,7 +72,7 @@ export const SingleProduct = (props) => {
                 <div className="row">
                     <h4>Description</h4>
                     <div className="col-12">
-                        <div className="bg-white p-3">
+                        <div className="bg-white p-3 desc-radius">
                             
                             <p>
                             "At vero eos et accusamus et iusto odio dignissimos ducimus qui 
@@ -82,7 +97,7 @@ export const SingleProduct = (props) => {
         <section className="reviews-wrapper py-5 home-wrapper-2">
             <div className="container-xxl">
                 <div className="row">
-                    <h4>Reviews</h4>
+                    <h3>Reviews</h3>
                     <div className="col-12">
                         <div className="review-inner-wrapper">
                             <div className="review-head d-flex justify-content-between align-items-end">
