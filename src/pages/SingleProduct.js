@@ -103,8 +103,12 @@ export const SingleProduct = () => {
                                             className="form-control"
                                         />
                                     </div>
+                                    <div className="d-flex align-items-center gap-30">
+                                        <button className="button border-0">Buy it Now</button>
+                                        <button className="button border-0">Add to Cart</button>
+                                    </div>
                                 </div>
-
+                                
                             </div>
                             
                         </div>

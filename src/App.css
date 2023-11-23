@@ -677,14 +677,16 @@ footer address {
   color: var(--color-1c1c1b);
 }
 
-.auth-card .signup {
+.signup {
   background-color: var(--color-febd69);
-  color: var(--color-131921)
+  color: var(--color-131921);
+  border: none;
 }
 
-.auth-card .signup:hover {
+.signup:hover {
   background-color: var(--color-131921);
   color: white;
+  border: none;
 }
 
 /**============== Login Section Ends =================================== */
@@ -756,6 +758,7 @@ footer address {
   font-size: 14px;
   color: var(--color-1c1c1b);
   font-weight: 600;
+  padding: 10px 0 0 0;
 }
 .prod_detail__data {
   font-size: 13px;
