@@ -705,6 +705,7 @@ footer address {
   border-bottom: 1px solid var(--color-d9d9d9);
   font-size: 22px;
   font-weight: 600;
+  line-height: 20px;
 }
 .prod_detail__price {
   font-size: 22px;
@@ -713,6 +714,10 @@ footer address {
 .prod_detail__review p{
   font-size: 13px;
   color: var(--color-777777);
+}
+.prod_detail_link_wrapper {
+  border-bottom: 1px solid var(--color-d9d9d9);
+  padding: 0 0 10px 0;
 }
 .prod_detail__link{
   font-size: 14px;
@@ -741,6 +746,21 @@ footer address {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
+}
+.prod_detail_info {
+  border-bottom: 1px solid var(--color-d9d9d9);
+  padding: 10px 0 10px 0;
+
+}
+.prod_detail__heading {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+  font-weight: 600;
+}
+.prod_detail__data {
+  font-size: 13px;
+  color: var(--color-777777);
+  margin: 0 0 7px 0;
 }
 .review-head {
   border-bottom: 1px solid rgba(0,0,0, 0.1);

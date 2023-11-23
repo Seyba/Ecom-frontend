@@ -5,6 +5,7 @@ import Meta from '../components/Meta'
 import ProductCard from '../components/ProductCard'
 import ReactStars from "react-rating-stars-component"
 import ReactImageZoom from "react-image-zoom"
+import { Color } from '../components/Color'
 
 export const SingleProduct = () => {
     const [orderedProduct, setOrderedProduct] = useState(0)
@@ -47,7 +48,7 @@ export const SingleProduct = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 px-4">
                             <h3 className="prod_detail__title pb-2">Kids Headphones Bulk 10 Pack Multi Colored For Students</h3>
                             <h3 className="prod_detail__price mb-3">$150.00</h3>
                             <div className="prod_detail__review d-flex gap-10 align-items-center">
@@ -60,7 +61,51 @@ export const SingleProduct = () => {
                                 />
                                 <p className="mb-0">Based on (8 reviews)</p>        
                             </div>
-                            <Link className="prod_detail__link" to="">Write a review</Link> 
+                            <div className="prod_detail_link_wrapper">
+                                <Link className="prod_detail__link" to="">Write a review</Link> 
+                            </div>
+                            <div className="prod_detail_info">
+                                
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="prod_detail__heading">Type: </h3> <p className="prod_detail__data">Headphone</p>
+                                </div>
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="prod_detail__heading">Brand: </h3> <p className="prod_detail__data">Havels</p>
+                                </div>
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="prod_detail__heading">Category: </h3> <p className="prod_detail__data">Headphone</p>
+                                </div>
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="prod_detail__heading">Tags: </h3> <p className="prod_detail__data">Headphone</p>
+                                </div>
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="prod_detail__heading">Availability: </h3> <p className="prod_detail__data">In Stock</p>
+                                </div>
+                                <div className="d-flex gap-10 flex-column my-2">
+                                    <h3 className="prod_detail__heading">Size: </h3> 
+                                    <div className="d-flex flex-wrap gap-15">
+                                        <span className="badge border border-1 text-dark border-secondary">S</span>
+                                        <span className="badge border border-1 text-dark border-secondary">L</span>
+                                    </div>
+                                </div>
+                                <div className="d-flex gap-10 flex-column my-2">
+                                    <h3 className="prod_detail__heading">Color: </h3> <p className="prod_detail__data"><Color/></p>
+                                </div>
+                                <div className="d-flex gap-10 flex-row my-2">
+                                    <h3 className="prod_detail__heading">Quantity: </h3>
+                                    <div>
+                                        <input 
+                                            type="number"
+                                            name=""
+                                            style={{width: '70px'}}
+                                            min={1}
+                                            max={10}
+                                            className="form-control"
+                                        />
+                                    </div>
+                                </div>
+
+                            </div>
                             
                         </div>
                     </div>
