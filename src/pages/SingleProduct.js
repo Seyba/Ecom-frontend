@@ -126,9 +126,28 @@ export const SingleProduct = () => {
                                             <span className="p-1">Add to Compare</span>
                                         </Link>
                                     </div>
-                                    
                                 </div>
-                                
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="">Shipping & Returns: </h3>
+                                    <p className="">
+                                        Free shipping and returns available on all orders!
+                                        We ship all US domestic orders within <b>5-10 business days!</b>
+                                    </p>
+                                </div>
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="">Shipping & Returns: </h3>
+                                    <p className="">
+                                        Free shipping and returns available on all orders!
+                                        We ship all US domestic orders within <b>5-10 business days!</b>
+                                    </p>
+                                </div>
+                                <div className="d-flex gap-10 align-items-center my-2">
+                                    <h3 className="">Shipping & Returns: </h3>
+                                    <p className="">
+                                        Free shipping and returns available on all orders!
+                                        We ship all US domestic orders within {" "} <b>5-10 business days!</b>
+                                    </p>
+                                </div>
                             </div>
                             
                         </div>
