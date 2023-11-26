@@ -15,8 +15,10 @@ import { SiMaterialdesignicons } from "react-icons/si";
 export const SingleProduct = () => {
     const [orderedProduct, setOrderedProduct] = useState(0)
     const props = {width: 400, height: 250, zooWidth: 500, img: "/images/headphoneBlue.jpg" }
-    const [isOn, setIsOn] = useState(true)
-
+    
+    const [careDetails, setCareDetails] = useState(false)
+    const [showShippingDetails, setShowShippingDetails] = useState(false)
+    const [materialsInfo, setMaterialsInfo] = useState(false)
   return (
     <>
         <BreadCrumb title={"Product Name"}/>
@@ -135,7 +137,7 @@ export const SingleProduct = () => {
                                     </div>
                                 </div>
                                 
-                                <div className="accordion" id="accordionExample">
+                                <div className="accordion">
                                     <div >
                                         <div className="d-flex justify-content-between">
                                             <div className="d-flex gap-15 align-items-center">
@@ -148,23 +150,25 @@ export const SingleProduct = () => {
                                                 <h5 className="mb-0">
                                                     <Link 
                                                         className="text-dark"
-                                                        onClick={() => setIsOn(!isOn)}
+                                                        onClick={() => setShowShippingDetails(!showShippingDetails)}
                                                     >
-                                                        {isOn? <BiChevronUp/>:<BiChevronDown/>}
+                                                        {showShippingDetails? <BiChevronUp/>:<BiChevronDown/>}
                                                     </Link>
                                                 </h5>
                                             </div>
                                         </div>
 
-                                        <div id="collapseOne" className={`collapse ${isOn ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
-                                            <div className="">
-                                            Free shipping and returns available on all orders!
-                                            We ship all US domestic orders within <b>5-10 business days!</b>
+                                        <div id="collapseOne" className={`collapse ${showShippingDetails ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div className="" >
+                                                <p className="prod_detail__data">
+                                                    Free shipping and returns available on all orders!
+                                                    We ship all US domestic orders within <b>5-10 business days!</b>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="accordion" id="accordionExample">
+                                <div className="accordion" >
                                     <div >
                                         <div className="d-flex justify-content-between">
                                             <div className="d-flex gap-15 align-items-center">
@@ -175,24 +179,26 @@ export const SingleProduct = () => {
                                                 <h5 className="mb-0">
                                                     <Link 
                                                         className="text-dark"
-                                                        onClick={() => setIsOn(!isOn)}
+                                                        onClick={() => setMaterialsInfo(!materialsInfo)}
                                                     >
-                                                        {isOn? <BiChevronUp/>:<BiChevronDown/>}
+                                                        {materialsInfo? <BiChevronUp/>:<BiChevronDown/>}
                                                     </Link>
                                                 </h5>
                                             </div>
                                         </div>
 
-                                        <div id="collapseOne" className={`collapse ${isOn ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div id="collapseOne" className={`collapse ${materialsInfo ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div className="">
-                                                Running Shoes cushions your stride with soft foam to keep you running in comfort. 
-                                                Lightweight knit material wraps your foot in breathable support, 
-                                                while a minimalist design fits in just about anywhere your day takes you.
+                                                <p className="prod_detail__data">
+                                                    Running Shoes cushions your stride with soft foam to keep you running in comfort. 
+                                                    Lightweight knit material wraps your foot in breathable support, 
+                                                    while a minimalist design fits in just about anywhere your day takes you.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="accordion" id="accordionExample">
+                                <div className="accordion">
                                     <div >
                                         <div className="d-flex justify-content-between">
                                             <div className="d-flex gap-15 align-items-center">
@@ -205,17 +211,19 @@ export const SingleProduct = () => {
                                                 <h5 className="mb-0">
                                                     <Link 
                                                         className="text-dark"
-                                                        onClick={() => setIsOn(!isOn)}
+                                                        onClick={() => setCareDetails(!careDetails)}
                                                     >
-                                                        {isOn? <BiChevronUp/>:<BiChevronDown/>}
+                                                        {careDetails? <BiChevronUp/>:<BiChevronDown/>}
                                                     </Link>
                                                 </h5>
                                             </div>
                                         </div>
 
-                                        <div id="collapseTwo" className={`collapse ${isOn ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div id="collapseTwo" className={`collapse ${careDetails ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div className="">
-                                                Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry.
+                                                <p className="prod_detail__data">
+                                                    Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
