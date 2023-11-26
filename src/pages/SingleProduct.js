@@ -137,7 +137,7 @@ export const SingleProduct = () => {
                                     </div>
                                 </div>
                                 
-                                <div className="accordion accordion-wrapper">
+                                <div className="accordion accordion-wrapper mt-4">
                                     <div >
                                         <div className="d-flex justify-content-between">
                                             <div className="d-flex gap-15 align-items-center">
@@ -223,6 +223,66 @@ export const SingleProduct = () => {
                                             <div className="">
                                                 <p className="prod_detail__data px-3">
                                                     Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion accordion-wrapper">
+                                    <div >
+                                        <div className="d-flex justify-content-between">
+                                            <div className="d-flex gap-15 align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                                                </svg>
+                                                <h5 className="mb-0 prod-accordion-title">FAQ's</h5>
+                                            </div>
+                                            <div className="" id="headingOne">
+                                                <h5 className="mb-0">
+                                                    <Link 
+                                                        className="text-dark"
+                                                        onClick={() => setCareDetails(!careDetails)}
+                                                    >
+                                                        {careDetails? <BiChevronUp/>:<BiChevronDown/>}
+                                                    </Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+
+                                        <div id="collapseTwo" className={`collapse ${careDetails ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div className="">
+                                                <h3 className="">The Standard Lorem Ipsum Passage</h3>
+                                                <p className="prod_detail__data px-3">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                    Morbi accumsan turpis posuere cursus ultricies. Ut nunc justo, 
+                                                    faucibus eget elit quis, vehicula rhoncus nulla. 
+                                                    Phasellus convallis sem nec facilisis commodo. 
+                                                    Fusce ut molestie turpis. Suspendisse aliquet sed massa in vulputate. 
+                                                    Quisque gravida suscipit tincidunt.
+                                                </p>
+                                                <h3>At Vero Eos Et Accusamus Et Iusto Odio Dignissimos</h3>
+                                                <p>
+                                                    Mauris elementum scelerisque elit non egestas. 
+                                                    Cras lacus nibh, pretium quis bibendum nec, dapibus a metus. 
+                                                    Morbi eros lectus, aliquam eu aliquam id, fringilla nec eros. 
+                                                    Praesent suscipit commodo diam, non viverra turpis dapibus malesuada. 
+                                                    Duis cursus metus eu sem eleifend, id rhoncus odio porttitor.
+                                                </p>
+                                                <h3>Certain Circumstances And Owing To The Claims Of Duty Or The Obligations</h3>
+                                                <p>
+                                                    But I must explain to you how all this mistaken idea of denouncing pleasure 
+                                                    and praising pain was born and I will give you a complete account of the system, 
+                                                    and expound the actual teachings of the great explorer of the truth, 
+                                                    the master-builder of human happiness. No one rejects, dislikes.
+                                                </p>
+                                                <h3>Integer Ultrices Laoreet Nunc In Gravida</h3>
+                                                <p>
+                                                    Sed lobortis pulvinar viverra. 
+                                                    Cum sociis natoque penatibus et magnis dis parturient montes, 
+                                                    nascetur ridiculus mus. Mauris suscipit dolor scelerisque, 
+                                                    bibendum tellus ac, pharetra sapien. 
+                                                    Praesent lacinia scelerisque odio et consequat. 
+                                                    In a facilisis lacus. Maecenas vel lobortis tellus.
                                                 </p>
                                             </div>
                                         </div>
