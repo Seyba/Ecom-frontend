@@ -790,4 +790,14 @@ footer address {
 .review:not(){
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+.accordion-wrapper {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0 10px 0;
+}
+.prod-accordion-title  {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+  font-weight: 400;
+}
+
 /**========================== Single Product Section Ends ========================= */
