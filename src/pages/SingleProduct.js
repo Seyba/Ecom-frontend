@@ -290,7 +290,8 @@ export const SingleProduct = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
+                                <div className="prod-footer-payment">
+                                    <h5 className="prod-footer__heading">Payment Methods</h5>
                                     <div className="d-flex ">
                                         <div className="">
                                             <svg enable-background="new 0 0 780 500" height="50" viewBox="0 0 780 500" width="50" xmlns="http://www.w3.org/2000/svg">
