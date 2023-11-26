@@ -820,3 +820,16 @@ footer address {
 }
 
 /**========================== Single Product Section Ends ========================= */
+
+
+/**========================== Shopping Cart Section Starts ========================= */
+.cart-header {
+  border-bottom: 1px solid var(--color-eaeaea);
+}
+.cart-header h4 {
+  font-size: 13px;
+  color: var(--color-777777);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/**========================== Shopping Cart Section Ends =========================== */
