@@ -251,7 +251,7 @@ export const SingleProduct = () => {
 
                                         <div id="collapseTwo" className={`collapse ${careDetails ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div className="">
-                                                <h3 className="">The Standard Lorem Ipsum Passage</h3>
+                                                <h3 className="faq-heading">The Standard Lorem Ipsum Passage</h3>
                                                 <p className="prod_detail__data px-3">
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                                     Morbi accumsan turpis posuere cursus ultricies. Ut nunc justo, 
@@ -260,7 +260,7 @@ export const SingleProduct = () => {
                                                     Fusce ut molestie turpis. Suspendisse aliquet sed massa in vulputate. 
                                                     Quisque gravida suscipit tincidunt.
                                                 </p>
-                                                <h3>At Vero Eos Et Accusamus Et Iusto Odio Dignissimos</h3>
+                                                <h3 className="faq-heading">At Vero Eos Et Accusamus Et Iusto Odio Dignissimos</h3>
                                                 <p>
                                                     Mauris elementum scelerisque elit non egestas. 
                                                     Cras lacus nibh, pretium quis bibendum nec, dapibus a metus. 
@@ -268,14 +268,14 @@ export const SingleProduct = () => {
                                                     Praesent suscipit commodo diam, non viverra turpis dapibus malesuada. 
                                                     Duis cursus metus eu sem eleifend, id rhoncus odio porttitor.
                                                 </p>
-                                                <h3>Certain Circumstances And Owing To The Claims Of Duty Or The Obligations</h3>
+                                                <h3 className="faq-heading">Certain Circumstances And Owing To The Claims Of Duty Or The Obligations</h3>
                                                 <p>
                                                     But I must explain to you how all this mistaken idea of denouncing pleasure 
                                                     and praising pain was born and I will give you a complete account of the system, 
                                                     and expound the actual teachings of the great explorer of the truth, 
                                                     the master-builder of human happiness. No one rejects, dislikes.
                                                 </p>
-                                                <h3>Integer Ultrices Laoreet Nunc In Gravida</h3>
+                                                <h3 className="faq-heading">Integer Ultrices Laoreet Nunc In Gravida</h3>
                                                 <p>
                                                     Sed lobortis pulvinar viverra. 
                                                     Cum sociis natoque penatibus et magnis dis parturient montes, 
