@@ -59,7 +59,7 @@ export const Cart = () => {
                         </div>
                     </div>
                     <div className="col-12 py-2 mt-4">
-                        <div className="d-flex justify-content-between align-items-center">
+                        <div className="d-flex justify-content-between align-align-items-baseline">
                             <div>
                                 <Link to='/product' className="button">Continue Shopping</Link>
                                 <p>Order special instructions</p>
@@ -68,10 +68,10 @@ export const Cart = () => {
                                     name="intruction"
                                 />
                             </div>
-                            <div className="d-flex flex-colum align-items-end">
+                            <div className="d-flex  flex-column align-items-end">
                                 <h4>Subtotal</h4> $ 500.00
                                 <p>Taxes and shipping calculated at checkout</p>
-                                <Link to="/checkout" className="button">Check Out</Link>
+                                <Link to='/checkout' className="button">Check Out</Link>
                             </div>
 
                         </div>
