@@ -823,7 +823,7 @@ footer address {
 
 
 /**========================== Shopping Cart Section Starts ========================= */
-.cart-header {
+.cart-header, .cart-data {
   border-bottom: 1px solid var(--color-eaeaea);
 }
 .cart-header h4 {
@@ -835,6 +835,10 @@ footer address {
 .cart-col-1 {
   width: 40%;
 }
+.cart-col-1 p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
 .cart-col-2 {
   width: 10%;
 }
@@ -843,6 +847,10 @@ footer address {
 }
 .cart-col-4 {
   width: 15%;
+}
+.cart-data h5.price {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
 }
 
 /**========================== Shopping Cart Section Ends =========================== */
