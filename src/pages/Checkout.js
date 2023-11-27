@@ -28,6 +28,8 @@ export const Checkout = () => {
                                     </li>
                                 </ol>
                             </nav>
+                            <h4 className="title">Contact Info</h4>
+                            <p className="user-details">John Doe: (Johndoe@gmail.com)</p>
                         </div>
                     </div>
                     <div className="col-5">
