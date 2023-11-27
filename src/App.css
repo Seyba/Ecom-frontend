@@ -824,7 +824,7 @@ footer address {
 
 /**========================== Shopping Cart Section Starts ========================= */
 .cart-header, .cart-data {
-  border-bottom: 1px solid var(--color-eaeaea);
+  border-bottom: 1px solid var(--color-d9d9d9);
 }
 .cart-header h4 {
   font-size: 13px;
