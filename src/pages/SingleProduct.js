@@ -251,7 +251,7 @@ export const SingleProduct = () => {
                                             </div>
                                         </div>
 
-                                        <div id="collapseTwo" className={`collapse ${faq ? 'show ' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div id="collapseTwo" className={`collapse ${faq ? 'show anim' : '' }`} aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div className="">
                                                 <h3 className="faq-heading px-3">The Standard Lorem Ipsum Passage</h3>
                                                 <p className="prod_detail__data px-3">
