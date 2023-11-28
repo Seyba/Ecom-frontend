@@ -108,7 +108,42 @@ export const Checkout = () => {
                         </div>
                     </div>
                     <div className="col-5">
-                        
+                        <div className="light-border-bottom py-4">
+                            <div className="d-flex gap-10 align-items-center">
+                                <div className="w-75 d-flex mb-2 gap-10">
+                                    <div className="w-25 position-relative">
+                                        <span 
+                                            className="badge bg-secondary text-white rounded-circle p-2 position-absolute"
+                                            style={{top: '-10px', right: '1px'}}
+                                        >
+                                            1
+                                        </span>
+                                        <img src="/images/appleWatchSeries2.jpg" className="img-fluid" alt=""/>
+                                    </div>
+                                    <div>
+                                        <h5 className="total-price">title</h5>
+                                        <p className="total-price">Apple Watch Series 7</p>
+                                    </div>
+                                </div>
+                                <div className="flex-grow-1">
+                                    <h5 className="total-price price-padding">$ 500</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="light-border-bottom py-4">
+                            <div className="d-flex justify-content-between align-items-center">
+                                <p className="total">Subtotal</p>
+                                <p className="total-price">$ 400</p>
+                            </div>
+                            <div className="d-flex justify-content-between align-items-center">
+                                <p className="total mb-0">Shipping</p>
+                                <p className="total-price mb-0">$ 20</p>
+                            </div>
+                        </div>
+                        <div className="d-flex justify-content-between align-items-center  py-4">
+                            <h4 className="total">Total</h4>
+                            <h5 className="total-price">$ 660</h5>
+                        </div>
                     </div>
                 </div>
             </div>
