@@ -24,20 +24,21 @@ export const Checkout = () => {
                                     </li>
                                     &nbsp;/
                                     <li className="breadcrumb-item active" aria-current="page">
-                                        <Link to="/">Information</Link>
+                                        <Link className="total-price" to="/">Information</Link>
                                     </li>
                                     &nbsp;/
                                     <li className="breadcrumb-item active" aria-current="page">
-                                        <Link to="/shipping">Shipping</Link>
+                                        <Link className="total-price" to="/shipping">Shipping</Link>
                                     </li>
                                     &nbsp;/
                                     <li className="breadcrumb-item active" aria-current="page">
-                                        <Link to="/">Payment</Link>
+                                        <Link className="total-price" to="/">Payment</Link>
                                     </li>
                                 </ol>
                             </nav>
-                            <h4 className="title">Contact Info</h4>
-                            <p className="user-details">John Doe: (Johndoe@gmail.com)</p>
+                            <h4 className="title total">Contact Info</h4>
+                            <p className="user-details total">John Doe: (Johndoe@gmail.com)</p>
+                            <h4 className="mb-3">Shipping Address</h4>
                             <form action="" className="d-flex flex-wrap gap-15 justify-content-between">
                                 <div className="w-100">
                                     <select name="" id="" className="form-control form-select">
