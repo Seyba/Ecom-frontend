@@ -19,7 +19,7 @@ export default function SpecialProduct() {
                         edit={false}
                         size={24} 
                         activeColor="#ffd700"
-                        value="3"
+                        value={3}
                     />
                     <p className="price">
                         <span className="red-p">$100</span> &nbsp; <strike>$200</strike>

@@ -34,7 +34,7 @@ export default function ProductCard(props){
                         edit={false}
                         size={24} 
                         activeColor="#ffd700"
-                        value="3"
+                        value={4}
                     />
                     <p className={`description ${grid === 12 ? "d-block" : "d-none" }`}>
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt...
