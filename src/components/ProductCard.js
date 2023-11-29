@@ -13,7 +13,7 @@ import { FaRegHeart } from "react-icons/fa";
 export default function ProductCard(props){
     const { grid } = props
     let location = useLocation()
-    console.log(location.pathname)
+    //console.log(location.pathname)
     const gridPath = (location.pathname === '/store')
   return (
     <>
