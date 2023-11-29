@@ -42,23 +42,23 @@ export default function ProductCard(props){
                     <p className="price">$220.00</p>
                 </div>
                 <div className="position-absolute wishlist">
-                    <Link className="text-dark">
+                    <button className="border-0 bg-transparent">
                         <CiHeart/>
-                    </Link>
+                    </button>
                 </div>
                 <div className="position-absolute action-bar">
                     
                     <div className="d-flex flex-column gap-10">
-                        <Link className="text-dark">
+                        <button className="border-0 bg-transparent">
                             <HiOutlineShoppingBag/>
-                        </Link>
+                        </button>
                         
-                        <Link className="text-dark">
+                        <button className="border-0 bg-transparent">
                             <BsShuffle/>
-                        </Link>
-                        <Link className="text-dark">
+                        </button>
+                        <button className="border-0 bg-transparent">
                             <GrView/>
-                        </Link>
+                        </button>
                         
                     </div>
                 </div>
@@ -88,23 +88,23 @@ export default function ProductCard(props){
                     <p className="price">$220.00</p>
                 </div>
                 <div className="position-absolute wishlist ">
-                    <Link className="text-dark">
+                    <button className="border-0 bg-transparent">
                         <CiHeart/>
-                    </Link>
+                    </button>
                 </div>
                 <div className="position-absolute action-bar">
                     
                     <div className="d-flex flex-column gap-10">
-                        <Link className="text-dark">
+                        <button className="border-0 bg-transparent">
                             <HiOutlineShoppingBag/>
-                        </Link>
+                        </button>
                         
-                        <Link className="text-dark">
+                        <button className="border-0 bg-transparent">
                             <BsShuffle/>
-                        </Link>
-                        <Link className="text-dark">
+                        </button>
+                        <button className="border-0 bg-transparent">
                             <GrView/>
-                        </Link>
+                        </button>
                         
                     </div>
                 </div>
