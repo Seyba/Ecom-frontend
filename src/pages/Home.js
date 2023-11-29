@@ -5,8 +5,13 @@ import BlogCard from '../components/BlogCard'
 import ProductCard from '../components/ProductCard'
 import SpecialProduct from '../components/SpecialProduct'
 import { Container } from '../components/Container'
+import { services } from '../utils/data'
 
 export default function Home() {
+  services.map((service, i) => {
+    
+    console.log(service.svg)
+  })
   return (
     <>
       <Container className="home-wrapper-1 py-5">

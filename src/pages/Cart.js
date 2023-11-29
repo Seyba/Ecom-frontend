@@ -73,7 +73,6 @@ export const Cart = () => {
                                 <p>Taxes and shipping calculated at checkout</p>
                                 <Link to='/checkout' className="button">Check Out</Link>
                             </div>
-
                         </div>
                     </div>
                 </div>
