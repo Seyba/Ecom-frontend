@@ -10,7 +10,7 @@ import { services } from '../utils/data'
 export default function Home() {
   return (
     <>
-      <Container className="home-wrapper-1 py-5">
+      <Container class1="home-wrapper-1 py-5">
         <div className="row">
           <div className="col-6">
             <div className="main-banner position-relative">
@@ -85,7 +85,7 @@ export default function Home() {
           </div>
         </div>
       </Container>
-      <Container className="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
             <div className="services d-flex align-items-center justify-content-between">
@@ -105,85 +105,79 @@ export default function Home() {
           </div>
         </div>
       </Container>
-      <section className="home-wrapper-2 py-5">
-        <div className="container-xxl">
-          
-        </div>
-      </section>
-      <section className="home-wrapper-2 py-5">
-        <div className="container-xxl ">
-          <div className="row">
-            <div className="col-12">
-              <div className="categories d-flex justify-content-between flex-wrap align-items-center">
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Laptops and Computers</h6>
-                    <p>8 Items</p>
-                  </div>
-                  <img src="images/macbook.jpg" alt="computer"/>
+      <Container class1="home-wrapper-2 py-5">
+        <div className="row">
+          <div className="col-12">
+            <div className="categories d-flex justify-content-between flex-wrap align-items-center">
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Laptops and Computers</h6>
+                  <p>8 Items</p>
                 </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Cameras & Videos</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/smartSpeaker.jpg" alt="computer"/>
-                </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Smart Television</h6>
-                    <p>12 Items</p>
-                  </div>
-                  <img src="images/tv.jpg" alt="computer"/>
-                </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Smart Watches</h6>
-                    <p>13 Items</p>
-                  </div>
-                  <img src="images/camera.jpg" alt="camera"/>
-                </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Music & Gaming</h6>
-                    <p>4 Items</p>
-                  </div>
-                  <img src="images/xBox.jpg" alt="xBox"/>
-                </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Mobiles & Tablets</h6>
-                    <p>5 Items</p>
-                  </div>
-                  <img src="images/samsungGalaxy.jpg" alt="phones"/>
-                </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Headphones</h6>
-                    <p>6 Items</p>
-                  </div>
-                  <img src="images/iphone11.jpg" alt="iphone"/>
-                </div>
-
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h6>Accessories</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/monitor.jpg" alt="monitor"/>
-                </div>
-                
+                <img src="images/macbookSM.jpg" alt="computer"/>
               </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Cameras & Videos</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/smartSpeaker0830.jpg" alt="computer"/>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Smart Television</h6>
+                  <p>12 Items</p>
+                </div>
+                <img src="images/tv.jpg" alt="computer"/>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Smart Watches</h6>
+                  <p>13 Items</p>
+                </div>
+                <img src="images/cameraSM.jpg" alt="camera"/>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>4 Items</p>
+                </div>
+                <img src="images/xboxConsole.jpg" alt="xBox"/>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Mobiles & Tablets</h6>
+                  <p>5 Items</p>
+                </div>
+                <img src="images/samsungGalaxysm.jpg" alt="phones"/>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Headphones</h6>
+                  <p>6 Items</p>
+                </div>
+                <img src="images/iphoneXR.jpg" alt="iphone"/>
+              </div>
+
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Accessories</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/tvApple.jpg" alt="monitor"/>
+              </div>
+              
             </div>
           </div>
         </div>
-      </section>
+      </Container>
+      
       <section className="blog-wrapper py-5 home-wrapper-2">
         <div className="container-xxl ">
           <div className="row">
