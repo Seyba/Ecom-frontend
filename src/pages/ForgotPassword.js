@@ -2,15 +2,15 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import { Link } from 'react-router-dom'
 import Meta from '../components/Meta'
+import { Container } from '../components/Container'
 
 export const ForgotPassword = () => {
   return (
     <>
         <BreadCrumb title={"Account"}/>
         <Meta title="Account"/>
-        <section className="login-wrapper py-5 home-wrapper-2">
-            <div className="container-xxl">
-                <div className="row">
+        <Container class1="login-wrapper py-5 home-wrapper-2">
+            <div className="row">
                     <div className="col-12">
                         <div className="auth-card">
                             <h3>Reset Your Password</h3>
@@ -33,9 +33,8 @@ export const ForgotPassword = () => {
 
                         </div>
                     </div>
-                </div>
             </div>
-        </section>
+        </Container>
     </>
   )
 }

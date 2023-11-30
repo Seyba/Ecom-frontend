@@ -8,6 +8,7 @@ import ReactImageZoom from "react-image-zoom"
 import { Color } from '../components/Color'
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 import { SiMaterialdesignicons } from "react-icons/si";
+import { Container } from '../components/Container'
 
 
 
@@ -25,9 +26,8 @@ export const SingleProduct = () => {
     <>
         <BreadCrumb title={"Product Name"}/>
         <Meta title="Product Name"/>
-        <section className="main-product-wrapper py-5 home-wrapper-2">
-            <div className="container-xxl">
-                <div className="product-card">
+        <Container class1="main-product-wrapper py-5 home-wrapper-2">
+            <div className="product-card">
                     <div className="row">
                         <div className="col-6">
                             <div className="prod_img mb-4">
@@ -326,135 +326,128 @@ export const SingleProduct = () => {
                             
                         </div>
                     </div>
-                </div>
             </div>
-        </section>
-        <section  className="description-wrapper py5 home-wrapper-2">
-            <div className="container-xxl">
-                <div className="row">
-                    <h4>Description</h4>
-                    <div className="col-12">
-                        <div className="bg-white p-3 desc-radius">
-                            
-                            <p>
-                            "At vero eos et accusamus et iusto odio dignissimos ducimus qui 
-                            blanditiis praesentium voluptatum deleniti atque corrupti quos 
-                            dolores et quas molestias excepturi sint occaecati cupiditate non 
-                            provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-                            id est laborum et dolorum fuga. Et harum quidem rerum facilis est et 
-                            expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi 
-                            optio cumque nihil impedit quo minus id quod maxime placeat facere 
-                            possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
-                            Temporibus autem quibusdam et aut officiis debitis aut rerum 
-                            necessitatibus saepe eveniet ut et voluptates repudiandae sint et 
-                            molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente 
-                            delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut 
-                            perferendis doloribus asperiores repellat
-                            </p>
-                        </div>
+        </Container>
+        <Container  class1="description-wrapper py5 home-wrapper-2">
+            <div className="row">
+                <h4>Description</h4>
+                <div className="col-12">
+                    <div className="bg-white p-3 desc-radius">
+                        
+                        <p>
+                        "At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                        blanditiis praesentium voluptatum deleniti atque corrupti quos 
+                        dolores et quas molestias excepturi sint occaecati cupiditate non 
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, 
+                        id est laborum et dolorum fuga. Et harum quidem rerum facilis est et 
+                        expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi 
+                        optio cumque nihil impedit quo minus id quod maxime placeat facere 
+                        possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+                        Temporibus autem quibusdam et aut officiis debitis aut rerum 
+                        necessitatibus saepe eveniet ut et voluptates repudiandae sint et 
+                        molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente 
+                        delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut 
+                        perferendis doloribus asperiores repellat
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section className="reviews-wrapper py-5 home-wrapper-2">
-            <div className="container-xxl">
-                <div className="row">
-                    <h3>Reviews</h3>
-                    <div className="col-12">
-                        <div className="review-inner-wrapper">
-                            <div className="review-head d-flex justify-content-between align-items-end">
-                                <div>
-                                    <h4 className="mb-2">Customer Reviews</h4>
-                                    <div className="d-flex gap-10 align-items-center">
-                                        <ReactStars 
-                                            count={5} 
-                                            edit={false}
-                                            size={24} 
-                                            activeColor="#ffd700"
-                                            value="3"
-                                        />
-                                        <p className="mb-0">Based on 4 reviews</p>
-                                        
-                                    </div>
-                                </div>
-                                <div>
-                                    {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
+        </Container>
+        <Container class1="reviews-wrapper py-5 home-wrapper-2">
+            <div className="row">
+                <h3>Reviews</h3>
+                <div className="col-12">
+                    <div className="review-inner-wrapper">
+                        <div className="review-head d-flex justify-content-between align-items-end">
+                            <div>
+                                <h4 className="mb-2">Customer Reviews</h4>
+                                <div className="d-flex gap-10 align-items-center">
+                                    <ReactStars 
+                                        count={5} 
+                                        edit={false}
+                                        size={24} 
+                                        activeColor="#ffd700"
+                                        value="3"
+                                    />
+                                    <p className="mb-0">Based on 4 reviews</p>
+                                    
                                 </div>
                             </div>
-                            <div className="review-form py-4">
-                                <h4>Write a review</h4>
-                                <form action="" className="d-flex flex-column gap-15">
-                                    <div>
-                                        <ReactStars 
-                                            count={5} 
-                                            edit={true}
-                                            size={24} 
-                                            activeColor="#ffd700"
-                                            value="3"
-                                        />
-                                    </div>
+                            <div>
+                                {orderedProduct > 0 && <Link className="text-dark text-decoration-underline">Write a review </Link>}
+                            </div>
+                        </div>
+                        <div className="review-form py-4">
+                            <h4>Write a review</h4>
+                            <form action="" className="d-flex flex-column gap-15">
+                                <div>
+                                    <ReactStars 
+                                        count={5} 
+                                        edit={true}
+                                        size={24} 
+                                        activeColor="#ffd700"
+                                        value="3"
+                                    />
+                                </div>
 
-                                    <div>
-                                        <textarea 
-                                            className="form-control" 
-                                            id="exampleFormControlTextarea1" 
-                                            placeholder="Comment" 
-                                            rows="4">
-                                        </textarea>
-                                    </div>
-                                    <div className="d-flex justify-content-end">
-                                        <button className="button">
-                                            Submit Review
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div className="reviews mt-4">
-                                <div className="review">
-                                    <div className="d-flex gap-10 align-items-center">
-                                        <h6 className="mb-0">John</h6>
-                                        <ReactStars 
-                                            count={5} 
-                                            edit={false}
-                                            size={24} 
-                                            activeColor="#ffd700"
-                                            value="3"
-                                        />
-                                        
-                                    </div>
-                                    <p className="mt-3">
-                                        I really love this headset
-                                        It gives me what i really want.
-                                    </p>
+                                <div>
+                                    <textarea 
+                                        className="form-control" 
+                                        id="exampleFormControlTextarea1" 
+                                        placeholder="Comment" 
+                                        rows="4">
+                                    </textarea>
                                 </div>
+                                <div className="d-flex justify-content-end">
+                                    <button className="button">
+                                        Submit Review
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div className="reviews mt-4">
+                            <div className="review">
+                                <div className="d-flex gap-10 align-items-center">
+                                    <h6 className="mb-0">John</h6>
+                                    <ReactStars 
+                                        count={5} 
+                                        edit={false}
+                                        size={24} 
+                                        activeColor="#ffd700"
+                                        value="3"
+                                    />
+                                    
+                                </div>
+                                <p className="mt-3">
+                                    I really love this headset
+                                    It gives me what i really want.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section className="popular-wrapper py-5 home-wrapper-2">
-            <div className="container-xxl ">
-                <div className="row">
-                    <div className="col-12">
-                        <h3 className="section-heading">Our Popular Products</h3>
-                    </div>
-                    <div className="col-3">
-                        <ProductCard/>
-                    </div>
-                    <div className="col-3">
-                        <ProductCard/>
-                    </div>
-                    <div className="col-3">
-                        <ProductCard/>
-                    </div>
-                    <div className="col-3">
-                        <ProductCard/>
-                    </div>
-                    
+        </Container>
+        <Container class1="popular-wrapper py-5 home-wrapper-2">
+            <div className="row">
+                <div className="col-12">
+                    <h3 className="section-heading">Our Popular Products</h3>
                 </div>
+                <div className="col-3">
+                    <ProductCard/>
+                </div>
+                <div className="col-3">
+                    <ProductCard/>
+                </div>
+                <div className="col-3">
+                    <ProductCard/>
+                </div>
+                <div className="col-3">
+                    <ProductCard/>
+                </div>
+                
             </div>
-        </section>
+        </Container>
     </>
   )
 }
