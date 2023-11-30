@@ -16,39 +16,10 @@ export const Signup = () => {
                     <div className="auth-card">
                         <h3>Create Account</h3>
                         <form className="d-flex flex-column gap-30" action="">
-                            <div >
-                                <input 
-                                    type="text"
-                                    name="name"
-                                    placeholder="Name"
-                                    className="form-control"
-                                />
-                            </div>
-                            <div >
-                                <input 
-                                    type="tel"
-                                    name="mobile"
-                                    placeholder="Mobile Number"
-                                    className="form-control"
-                                />
-                            </div>
-                            <div >
-                                <input 
-                                    type="email"
-                                    name="email"
-                                    placeholder="email"
-                                    className="form-control"
-                                />
-                            </div>
-                            <div className="mt-1">
-                                <input 
-                                    type="password"
-                                    name="password"
-                                    placeholder="password"
-                                    className="form-control"
-                                />
-                            </div>
-                            
+                            <CustomInput type="text" name="name" placeholder="Name"/>
+                            <CustomInput type="tel" name="mobile" placeholder="Mobile Number"/>
+                            <CustomInput type="email" name="email" placeholder="Email"/>
+                            <CustomInput type="password" name="password" placeholder="password"/>
                             <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
                                 <button className="button">Create</button>
                             </div>
