@@ -177,172 +177,158 @@ export default function Home() {
           </div>
         </div>
       </Container>
-      
-      <section className="blog-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl ">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="section-heading">Featured Collection</h3>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
+      <Container class1="blog-wrapper py-5 home-wrapper-2">
+        <div className="row">
+          <div className="col-12">
+            <h3 className="section-heading">Featured Collection</h3>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+        </div>  
+      </Container>
+      <Container class1="famous-wrapper py-5 home-wrapper-2">
+        <div className="row">
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/appleWatchSeries7.jpg" className="img-fluid" alt="watch"/>
+              <div className="famous-content position-absolute">
+                <h5>BIG SCREEN</h5>
+                <h6>Smart Watch Series 7 </h6>
+                <p>From $399 or $16.62/mo for 24 mo*</p>
+              </div>
             </div>
             
           </div>
-        </div>
-      </section>
-      <section className="famous-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-3">
-              <div className="famous-card position-relative">
-                <img src="/images/appleWatchSeries7.jpg" className="img-fluid" alt="watch"/>
-                <div className="famous-content position-absolute">
-                  <h5>BIG SCREEN</h5>
-                  <h6>Smart Watch Series 7 </h6>
-                  <p>From $399 or $16.62/mo for 24 mo*</p>
-                </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/macbookPro.jpg" className="img-fluid" alt="watch"/>
+              <div className="famous-content position-absolute">
+                <h5 className="text-dark">STUDIO DISPLAY</h5>
+                <h6 className="text-dark">600 nits of brightness.</h6>
+                <p className="text-dark">27-inch 5k Retina display</p>
               </div>
-              
             </div>
-            <div className="col-3">
-              <div className="famous-card position-relative">
-                <img src="/images/macbookPro.jpg" className="img-fluid" alt="watch"/>
-                <div className="famous-content position-absolute">
-                  <h5 className="text-dark">STUDIO DISPLAY</h5>
-                  <h6 className="text-dark">600 nits of brightness.</h6>
-                  <p className="text-dark">27-inch 5k Retina display</p>
-                </div>
+            
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/iphoneProMax.jpg" className="img-fluid" alt="watch"/>
+              <div className="famous-content position-absolute">
+                <h5 className="text-dark">SMARTPHONES</h5>
+                <h6 className="text-dark">Smartphone 13 Pro.</h6>
+                <p className="text-dark">Now in Green. From $999.00 or $41.62/mo. for 24 mo. Footnote*</p>
               </div>
-              
             </div>
-            <div className="col-3">
-              <div className="famous-card position-relative">
-                <img src="/images/iphoneProMax.jpg" className="img-fluid" alt="watch"/>
-                <div className="famous-content position-absolute">
-                  <h5 className="text-dark">SMARTPHONES</h5>
-                  <h6 className="text-dark">Smartphone 13 Pro.</h6>
-                  <p className="text-dark">Now in Green. From $999.00 or $41.62/mo. for 24 mo. Footnote*</p>
-                </div>
-              </div>
-              
-            </div>
-            <div className="col-3">
-              <div className="famous-card position-relative">
-                <img src="/images/soundBoxes.jpg" className="img-fluid" alt="watch"/>
-                <div className="famous-content position-absolute">
-                  <h5 className="text-dark">HOME SPEAKERS</h5>
-                  <h6 className="text-dark">Room-filling Sound.</h6>
-                  <p className="text-dark">From $699 or $116.58/mo for 12 mo.*</p>
-                </div>
+            
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/soundBoxes.jpg" className="img-fluid" alt="watch"/>
+              <div className="famous-content position-absolute">
+                <h5 className="text-dark">HOME SPEAKERS</h5>
+                <h6 className="text-dark">Room-filling Sound.</h6>
+                <p className="text-dark">From $699 or $116.58/mo for 12 mo.*</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section className="special-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      </Container>
+      <Container class1="special-wrapper py-5 home-wrapper-2">
+        <div className="row">
+          <div className="col-12">
+            <h3 className="section-heading">Special Products</h3>
+          </div>
           <div className="row">
-            <div className="col-12">
-              <h3 className="section-heading">Special Products</h3>
-            </div>
-            <div className="row">
-              <SpecialProduct/>
-              <SpecialProduct/>
-              <SpecialProduct/>
-              <SpecialProduct/>
-            </div>
+            <SpecialProduct/>
+            <SpecialProduct/>
+            <SpecialProduct/>
+            <SpecialProduct/>
           </div>
         </div>
-      </section>
-      <section className="popular-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl ">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="section-heading">Our Popular Products</h3>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
-            <div className="col-3">
-              <ProductCard/>
-            </div>
+      </Container>
+      <Container class1="popular-wrapper py-5 home-wrapper-2">
+        <div className="row">
+          <div className="col-12">
+            <h3 className="section-heading">Our Popular Products</h3>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
+          </div>
+          <div className="col-3">
+            <ProductCard/>
           </div>
         </div>
-      </section>
-      <section className="marquee-wrapper py-5">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-12">
-                <Marquee className="d-flex">
-                  <div className="mx-4 w-15">
-                    <img src="/images/canon.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/dell.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/sony.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/apple.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/sanDisk.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/samsung.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/intel.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/bose.png" alt="brand"/>
-                  </div>
-                  <div className="mx-4 w-15">
-                    <img src="/images/lg.png" alt="brand"/>
-                  </div>
-                </Marquee>
-            </div>
+      </Container>
+      <Container class1="marquee-wrapper py-5">
+        <div className="row">
+          <div className="col-12">
+            <Marquee className="d-flex">
+              <div className="mx-4 w-15">
+                <img src="/images/canon.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/dell.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/sony.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/apple.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/sanDisk.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/samsung.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/intel.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/bose.png" alt="brand"/>
+              </div>
+              <div className="mx-4 w-15">
+                <img src="/images/lg.png" alt="brand"/>
+              </div>
+            </Marquee>
           </div>
         </div>
-      </section>
-      <section className="blog-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl ">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="section-heading">Our Latest Blogs</h3>
-            </div>
-            <div className="col-3">
-              <BlogCard/>
-            </div>
-            <div className="col-3">
-              <BlogCard/>
-            </div>
-            <div className="col-3">
-              <BlogCard/>
-            </div>
-            <div className="col-3">
-              <BlogCard/>
-            </div>
+      </Container>
+      <Container class1="blog-wrapper py-5 home-wrapper-2">
+        <div className="row">
+          <div className="col-12">
+            <h3 className="section-heading">Our Latest Blogs</h3>
+          </div>
+          <div className="col-3">
+            <BlogCard/>
+          </div>
+          <div className="col-3">
+            <BlogCard/>
+          </div>
+          <div className="col-3">
+            <BlogCard/>
+          </div>
+          <div className="col-3">
+            <BlogCard/>
           </div>
         </div>
-      </section>
+      </Container>
     </>
   )
 }
