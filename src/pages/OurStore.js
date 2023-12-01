@@ -187,10 +187,10 @@ export default function OurStore() {
                                     <option vlaue="title-descending">Alphabetically Z-A</option>
                                     <option vlaue="created-ascending">Date old to new</option>
                                     <option vlaue="created-descending">Date new to old</option>
-                                    <option vlaue="">Best selling</option>
-                                    <option vlaue="">Featured</option>
-                                    <option vlaue="">Price low to high</option>
-                                    <option vlaue="">Price high to low</option>
+                                    <option vlaue="best-selling">Best selling</option>
+                                    <option vlaue="featured">Featured</option>
+                                    <option vlaue="price-low-to-high">Price low to high</option>
+                                    <option vlaue="price-high-to-low">Price high to low</option>
                                 </select>
                             </div>
                             <div className="d-flex justify-content-center align-items-center">
