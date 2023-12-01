@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import Meta from '../components/Meta'
 import ProductCard from '../components/ProductCard'
 import ReactStars from "react-rating-stars-component"
-import ReactImageZoom from "react-image-zoom"
 import { Color } from '../components/Color'
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 import { SiMaterialdesignicons } from "react-icons/si";
@@ -15,7 +14,7 @@ import { Container } from '../components/Container'
 
 export const SingleProduct = () => {
     const [orderedProduct, setOrderedProduct] = useState(0)
-    const props = {width: 400, height: 250, zooWidth: 500, img: "/images/headphoneBlue.jpg" }
+    //const props = {width: 400, height: 250, zooWidth: 500, img: "/images/headphoneBlue.jpg" }
     
     const [careDetails, setCareDetails] = useState(false)
     const [showShippingDetails, setShowShippingDetails] = useState(false)

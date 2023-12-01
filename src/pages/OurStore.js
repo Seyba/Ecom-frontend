@@ -10,10 +10,6 @@ import { Container } from '../components/Container'
 
 export default function OurStore() {
     const [grid, setGrid] = useState(4)
-    const gridSetter = i => {
-        setGrid(i)
-    }
-    //alert(grid)
 
     return (
     <>
