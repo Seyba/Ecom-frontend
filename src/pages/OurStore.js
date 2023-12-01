@@ -38,7 +38,7 @@ export default function OurStore() {
                         <div>
                             <h5 className="sub-title">Availability</h5>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="" checked/>
+                                <input className="form-check-input" type="checkbox" value="" />
                                 <label className="form-check-label" htmlFor="">
                                     In Stock (2)  
                                 </label>
@@ -147,7 +147,7 @@ export default function OurStore() {
                                         edit={false}
                                         size={24} 
                                         activeColor="#ffd700"
-                                        value="3"
+                                        value={3}
                                     />
                                     <h5 className="price">$100.00</h5>
                                 </div>
@@ -165,7 +165,7 @@ export default function OurStore() {
                                         edit={false}
                                         size={24} 
                                         activeColor="#ffd700"
-                                        value="3"
+                                        value={3}
                                     />
                                     <h5 className="price">$150.00</h5>
                                 </div>
